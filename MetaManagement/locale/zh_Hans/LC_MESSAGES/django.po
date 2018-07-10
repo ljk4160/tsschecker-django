@@ -1,0 +1,394 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-10 16:52+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: MetaManagement/admin.py:7 MetaManagement/admin.py:8 MetaManagement/apps.py:9
+msgid "MetaManagement"
+msgstr "固件签名"
+
+#: MetaManagement/models.py:11
+msgid "Meta"
+msgstr "设备"
+
+#: MetaManagement/models.py:12
+msgid "Metas"
+msgstr "设备"
+
+#: MetaManagement/models.py:16
+msgid "ECID"
+msgstr "ECID"
+
+#: MetaManagement/models.py:24 MetaManagement/models.py:80
+#: django_rq/templates/django_rq/job_detail.html:51
+msgid "Created At"
+msgstr "创建于"
+
+#: MetaManagement/models.py:29 django_rq/templates/django_rq/stats.html:23
+msgid "Name"
+msgstr "名称"
+
+#: MetaManagement/models.py:35
+msgid "HW Model"
+msgstr "平台"
+
+#: MetaManagement/models.py:38
+msgid "Example: n90ap"
+msgstr "例: n90ap"
+
+#: MetaManagement/models.py:42
+msgid "Product Type"
+msgstr "型号"
+
+#: MetaManagement/models.py:45
+msgid "Example: iPhone10,3"
+msgstr "例: iPhone10,3"
+
+#: MetaManagement/models.py:49
+msgid "iOS Version"
+msgstr "iOS 版本"
+
+#: MetaManagement/models.py:52 MetaManagement/models.py:93
+msgid "Example: 11.4"
+msgstr "例: 11.4"
+
+#: MetaManagement/models.py:56
+msgid "iOS Build"
+msgstr "iOS 构建版本"
+
+#: MetaManagement/models.py:60 MetaManagement/models.py:101
+msgid "Example: 15F5061e"
+msgstr "例: 15F5061e"
+
+#: MetaManagement/models.py:64
+msgid "Generator"
+msgstr "随机数种子"
+
+#: MetaManagement/models.py:75
+msgid "Signature"
+msgstr "签名"
+
+#: MetaManagement/models.py:76
+msgid "Signatures"
+msgstr "签名"
+
+#: MetaManagement/models.py:86
+msgid "Device"
+msgstr "设备"
+
+#: MetaManagement/models.py:90
+msgid "Blob Version"
+msgstr "Blob 版本"
+
+#: MetaManagement/models.py:97
+msgid "Blob Build"
+msgstr "Blob 构建号"
+
+#: MetaManagement/models.py:105
+msgid "Blob Nonce"
+msgstr "Blob 随机数"
+
+#: MetaManagement/models.py:112
+msgid "Blob File"
+msgstr "Blob 文件"
+
+#: MetaManagement/models.py:115
+msgid "Choose a Blob File (*.shsh2) to upload"
+msgstr "选择一个 Blob 文件 (*.shsh2) 以上传"
+
+#: MetaManagement/views.py:178
+msgid "No such job"
+msgstr ""
+
+#: MetaManagement/views.py:197
+msgid "Task submitted, proceeding..."
+msgstr ""
+
+#: django_rq/templates/django_rq/clear_queue.html:19
+#: django_rq/templates/django_rq/confirm_action.html:19
+#: django_rq/templates/django_rq/delete_job.html:19
+#: django_rq/templates/django_rq/job_detail.html:21
+#: django_rq/templates/django_rq/jobs.html:27
+#: django_rq/templates/django_rq/requeue_all.html:19
+#: django_rq/templates/django_rq/stats.html:9
+msgid "Home"
+msgstr ""
+
+#: django_rq/templates/django_rq/clear_queue.html:20
+#: django_rq/templates/django_rq/confirm_action.html:20
+#: django_rq/templates/django_rq/delete_job.html:20
+#: django_rq/templates/django_rq/index.html:13
+#: django_rq/templates/django_rq/job_detail.html:22
+#: django_rq/templates/django_rq/jobs.html:28
+#: django_rq/templates/django_rq/requeue_all.html:20
+#: django_rq/templates/django_rq/stats.html:10 django_rq/views.py:61
+msgid "Django RQ"
+msgstr ""
+
+#: django_rq/templates/django_rq/clear_queue.html:26
+#: django_rq/templates/django_rq/confirm_action.html:26
+#: django_rq/templates/django_rq/delete_job.html:27
+#: django_rq/templates/django_rq/requeue_all.html:26
+msgid "Are you sure?"
+msgstr ""
+
+#: django_rq/templates/django_rq/clear_queue.html:32
+#, python-format
+msgid ""
+"Are you sure you want to clear the queue %(queue_name)s?\n"
+"        This action can not be undone."
+msgstr ""
+
+#: django_rq/templates/django_rq/clear_queue.html:38
+#: django_rq/templates/django_rq/confirm_action.html:46
+#: django_rq/templates/django_rq/delete_job.html:39
+#: django_rq/templates/django_rq/requeue_all.html:38
+msgid "Yes, I'm sure"
+msgstr ""
+
+#: django_rq/templates/django_rq/confirm_action.html:32
+#, python-format
+msgid ""
+"Are you sure you want to <b>%(cap_action)s</b> the selected jobs from "
+"%(queue.name)s? These jobs are selected:"
+msgstr ""
+
+#: django_rq/templates/django_rq/delete_job.html:33
+#, python-format
+msgid ""
+"Are you sure you want to delete %(job_id)s from %(queue_name)s?\n"
+"        This action can not be undone."
+msgstr ""
+
+#: django_rq/templates/django_rq/index.html:18
+msgid "Queues"
+msgstr ""
+
+#: django_rq/templates/django_rq/job_detail.html:28
+msgid "Job Info"
+msgstr ""
+
+#: django_rq/templates/django_rq/job_detail.html:35
+#: django_rq/templates/django_rq/jobs.html:69
+#, fuzzy
+#| msgid "ECID"
+msgid "ID"
+msgstr "ECID"
+
+#: django_rq/templates/django_rq/job_detail.html:39
+msgid "Queue"
+msgstr ""
+
+#: django_rq/templates/django_rq/job_detail.html:43
+msgid "Timeout"
+msgstr ""
+
+#: django_rq/templates/django_rq/job_detail.html:47
+msgid "Result TTL"
+msgstr ""
+
+#: django_rq/templates/django_rq/job_detail.html:55
+msgid "Enqueued At"
+msgstr ""
+
+#: django_rq/templates/django_rq/job_detail.html:59
+#: django_rq/templates/django_rq/jobs.html:72
+msgid "Status"
+msgstr ""
+
+#: django_rq/templates/django_rq/job_detail.html:63
+#: django_rq/templates/django_rq/jobs.html:73
+msgid "Callable"
+msgstr ""
+
+#: django_rq/templates/django_rq/job_detail.html:67
+msgid "Args"
+msgstr ""
+
+#: django_rq/templates/django_rq/job_detail.html:81
+msgid "Kwargs"
+msgstr ""
+
+#: django_rq/templates/django_rq/job_detail.html:95
+msgid "Exception"
+msgstr ""
+
+#: django_rq/templates/django_rq/job_detail.html:101
+msgid "Result"
+msgstr ""
+
+#: django_rq/templates/django_rq/jobs.html:33
+#, python-format
+msgid "%(job_status)s jobs in %(queue_name)s"
+msgstr ""
+
+#: django_rq/templates/django_rq/jobs.html:40 django_rq/views.py:326
+msgid "Requeue All"
+msgstr ""
+
+#: django_rq/templates/django_rq/jobs.html:42
+msgid "Empty Queue"
+msgstr ""
+
+#: django_rq/templates/django_rq/jobs.html:48
+msgid "Actions:"
+msgstr ""
+
+#: django_rq/templates/django_rq/jobs.html:51
+msgid "Delete"
+msgstr ""
+
+#: django_rq/templates/django_rq/jobs.html:53
+msgid "Requeue"
+msgstr ""
+
+#: django_rq/templates/django_rq/jobs.html:57
+msgid "Go"
+msgstr ""
+
+#: django_rq/templates/django_rq/jobs.html:70
+#, fuzzy
+#| msgid "Created At"
+msgid "Created"
+msgstr "创建于"
+
+#: django_rq/templates/django_rq/jobs.html:71
+msgid "Enqueued"
+msgstr ""
+
+#: django_rq/templates/django_rq/jobs.html:106
+#, python-format
+msgid "%(num_jobs)s jobs"
+msgstr ""
+
+#: django_rq/templates/django_rq/requeue_all.html:32
+#, python-format
+msgid ""
+"Are you sure you want to requeue all %(t_job)s job%(t_jobs)s in the queue "
+"%(queue_name)s?\n"
+"        This action can not be undone."
+msgstr ""
+
+#: django_rq/templates/django_rq/stats.html:24
+msgid "Queued Jobs"
+msgstr ""
+
+#: django_rq/templates/django_rq/stats.html:25
+msgid "Active Jobs"
+msgstr ""
+
+#: django_rq/templates/django_rq/stats.html:26 django_rq/views.py:210
+msgid "Deferred Jobs"
+msgstr ""
+
+#: django_rq/templates/django_rq/stats.html:27 django_rq/views.py:128
+msgid "Finished Jobs"
+msgstr ""
+
+#: django_rq/templates/django_rq/stats.html:28
+msgid "Number of Workers"
+msgstr ""
+
+#: django_rq/templates/django_rq/stats.html:29
+msgid "Host"
+msgstr ""
+
+#: django_rq/templates/django_rq/stats.html:30
+msgid "Port"
+msgstr ""
+
+#: django_rq/templates/django_rq/stats.html:31
+msgid "DB"
+msgstr ""
+
+#: django_rq/views.py:87
+msgid "Jobs"
+msgstr ""
+
+#: django_rq/views.py:94
+msgid "Queued"
+msgstr ""
+
+#: django_rq/views.py:135
+msgid "Finished"
+msgstr ""
+
+#: django_rq/views.py:169
+msgid "Started Jobs"
+msgstr ""
+
+#: django_rq/views.py:176
+msgid "Started"
+msgstr ""
+
+#: django_rq/views.py:217
+msgid "Deferred"
+msgstr ""
+
+#: django_rq/views.py:229
+#, python-format
+msgid "Couldn't find job with this ID: %s"
+msgstr ""
+
+#: django_rq/views.py:233
+msgid "Job Detail"
+msgstr ""
+
+#: django_rq/views.py:251
+#, python-format
+msgid "You have successfully deleted %s"
+msgstr ""
+
+#: django_rq/views.py:256
+msgid "Delete Job"
+msgstr ""
+
+#: django_rq/views.py:272
+#, python-format
+msgid "You have successfully requeued %s"
+msgstr ""
+
+#: django_rq/views.py:291
+#, python-format
+msgid "You have successfully cleared the queue %s"
+msgstr ""
+
+#: django_rq/views.py:295
+msgid ""
+"This action is not supported on Redis versions < 2.6.0, please use the bulk "
+"delete command instead"
+msgstr ""
+
+#: django_rq/views.py:303
+msgid "Clear Queue"
+msgstr ""
+
+#: django_rq/views.py:321
+#, python-format
+msgid "You have successfully requeued all %d jobs!"
+msgstr ""
+
+#: django_rq/views.py:360
+#, python-format
+msgid "You have successfully deleted %s jobs!"
+msgstr ""
+
+#: django_rq/views.py:364
+#, python-format
+msgid "You have successfully requeued %d jobs!"
+msgstr ""
