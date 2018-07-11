@@ -23,9 +23,9 @@ from MetaManagement.views import register_device, sign_device
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api/sign/$', sign_device, name='sign_device'),
-    url(r'^api/register/$', register_device, name='register_device')
+    url(r'^api/register/$', register_device, name='register_device'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-urlpatterns.append(url(r'^admin/sites/django-rq/', include('django_rq.urls')))
+urlpatterns.append(url(r'^admin/rq/', include('django_rq.urls')))
 
 handler400 = 'MetaManagement.error.bad_request'
 handler404 = 'MetaManagement.error.page_not_found'

@@ -2,468 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82808fee-9e43-4ce5-9dd9-77cf9ba076a9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/d9c815ac-0b29-41ac-a12c-77e37e08a7b7/_metadata_/metadata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/d9c815ac-0b29-41ac-a12c-77e37e08a7b7/_metadata_/metadata.keystream" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/d9c815ac-0b29-41ac-a12c-77e37e08a7b7/_metadata_/metadata.keystream.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/d9c815ac-0b29-41ac-a12c-77e37e08a7b7/_metadata_/metadata.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/d9c815ac-0b29-41ac-a12c-77e37e08a7b7/_metadata_/metadata_i" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/d9c815ac-0b29-41ac-a12c-77e37e08a7b7/_metadata_/metadata_i.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata.keystream" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata.keystream.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata_i" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata_i.len" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MetaManagement/locale/en/LC_MESSAGES/django.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MetaManagement/locale/zh_Hans/LC_MESSAGES/django.mo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/DeviceX.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/d9c815ac-0b29-41ac-a12c-77e37e08a7b7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/d9c815ac-0b29-41ac-a12c-77e37e08a7b7/storage.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webResources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DeviceX/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DeviceX/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DeviceX/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DeviceX/wsgi.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MetaManagement/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MetaManagement/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MetaManagement/apps.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MetaManagement/error.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MetaManagement/locale/en/LC_MESSAGES/django.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MetaManagement/locale/zh_Hans/LC_MESSAGES/django.po" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MetaManagement/migrations/0001_initial.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MetaManagement/migrations/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MetaManagement/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MetaManagement/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MetaManagement/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/admin.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/decorators.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/management/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/management/commands/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/management/commands/rqenqueue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/management/commands/rqscheduler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/management/commands/rqworker.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/queues.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/clear_queue.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/confirm_action.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/delete_job.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/job_detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/jobs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/requeue_all.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/stats.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/templatetags/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/templatetags/django_rq.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/templatetags/jquery_path.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/test_settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/tests/tests.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/tests/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/tests/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/thread_queue.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/urls.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/django_rq/workers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/10241808D81426/11.4/4543285273564198_iPhone7,2_n61ap_11.4-15F79_87b3f10967e1e4cf39e61097e91a32eeeeba89ac.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1034362032E026/11.4.1/4561006700453926_iPhone7,2_n61ap_11.4.1-15G77_d092654e3a8f7059ba3bdeb585b859fa3d10fde5.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1034362032E026/11.4/4561006700453926_iPhone7,2_n61ap_11.4-15F79_0ab1838dddfa5893f6f44de36f48e88534cd9936.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/10449028290426/11.4/10449028290426_iPhone7,2_n61ap_11.4-15F79_35e8f74fa61c8bb0ee39aa0c45a1b28abe07adb1.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/10644410698826/11.4/10644410698826_iPhone7,2_n61ap_11.4-15F79_29c030ba03f20fd0dcc782bc23bbb88467ba2648.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1064A600DB8826/11.4.1/4614263769106470_iPhone7,2_n61ap_11.4.1-15G77_292a65213dcc07dd8e1276538a51fbf812eebb2e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1064A600DB8826/11.4/4614263769106470_iPhone7,2_n61ap_11.4-15F79_fb7e27888738c6bfd19cf8641ac52a54212bc81e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/10684A04698826/11.4/4618266738264102_iPhone7,2_n61ap_11.4-15F79_290b385d8469261b8759c7170e47e6ee309f0539.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/10691A0051E026/11.4/4619160022802470_iPhone7,2_n61ap_11.4-15F79_d5aff5a7bdd2e9737ec9711f7e75de380bfe82ef.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/10C2EB9F5EC/11.4.1/1151835174380_iPhone8,1_n71ap_11.4.1-15G77_18094efaa382ddd4b39d9adcab6cb04bbdb9560b.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/10C2EB9F5EC/11.4/1151835174380_iPhone8,1_n71ap_11.4-15F79_7db8dc53518863f5315dbfa8db49b86cd7cf4a39.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/11045E10B80426/11.4/4789876658013222_iPhone7,2_n61ap_11.4-15F79_c342f1d2c1358cda0a8f65f910a76442ca147aee.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/110C8030991826/11.4/4798819314767910_iPhone7,2_n61ap_11.4-15F79_f4ac81b391a091f66c1658e63718dafdd425b6e8.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1115D810326026/11.4.1/4809092332937254_iPhone7,2_n61ap_11.4.1-15G77_43296236c57f892487549979f56cb02684933e14.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1115D810326026/11.4/4809092332937254_iPhone7,2_n61ap_11.4-15F79_47af3606c71de9ed1954d71c3dc6d526ad2091e6.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/111C6C0483A6BA/11.4.1/4816324861863610_iPhone7,2_n61ap_11.4.1-15G77_98c53bda006845512e7944eea34c1f2abccab508.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/111C6C0483A6BA/11.4/4816324861863610_iPhone7,2_n61ap_11.4-15F79_d9090162a903404759c3ccd7bc1701840a80feec.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1124D138F81C26/11.4/4825555626630182_iPhone8,1_n71map_11.4-15F79_ea0066a91602af2aa75352c3af3755437a5a99f9.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/11384824EB8226/11.4/4846957112295974_iPhone8,1_n71map_11.4-15F79_f15220519572edc273aae180e6d1899b31f257ec.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/11591830874826/11.4.1/11591830874826_iPhone7,2_n61ap_11.4.1-15G77_dd3bdedda22c55c788b880a9071917b76562c55d.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/11591830874826/11.4/11591830874826_iPhone7,2_n61ap_11.4-15F79_c2df033137540ce689086240288c5d746735d0a8.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/11651024C3C3BA/11.4.1/4896194614772666_iPhone8,1_n71map_11.4.1-15G77_7a71a0987a36e3b4099fbe1a349194bc61996185.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/11651024C3C3BA/11.4/4896194614772666_iPhone8,1_n71map_11.4-15F79_a95c50f82f884ff9edbe808293ff3c30205d0328.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1168A610858C26/11.4.1/4900137055128614_iPhone7,2_n61ap_11.4.1-15G77_33b605b9c98b7720d7e998714f01b1600ffae758.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1168A610858C26/11.4/4900137055128614_iPhone7,2_n61ap_11.4-15F79_2b628b3147a53478bd8635eeaaa05510f96d83aa.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1169AE240BEC26/11.4.1/4901271254068262_iPhone8,1_n71map_11.4.1-15G77_a1628b40716a1846c4c00894169374dac6a3aebf.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1169AE240BEC26/11.4/4901271254068262_iPhone8,1_n71map_11.4-15F79_b574ae12a97c799bb7d8edaa7f2281c961bb9807.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1210E8046149BA/11.4/5085138272733626_iPhone7,2_n61ap_11.4-15F79_aaab282e8fb3af60d6ea77a9decc8690c5e69e0a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1214E104328826/11.4/5089506251409446_iPhone7,2_n61ap_11.4-15F79_1fc8424059dc373cd74bfa6f99320e450ab9f71e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/122DC1208A4426/11.4/5116857078662182_iPhone7,2_n61ap_11.4-15F79_7b0e2ade02f90cc3d8b86bc5be0c1fc332f3af66.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/12356A088BC426/11.4/5125279106974758_iPhone7,2_n61ap_11.4-15F79_4c1431c8dc946cdcba0c494b5e52c3ee96f6d28b.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1240EA3045A426/11.4/5137924157187110_iPhone7,2_n61ap_11.4-15F79_524f87efa35edb0d9e17c0c13663f7c976b6ded8.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/12449300BCC26/11.4.1/321371734002726_iPhone8,1_n71map_11.4.1-15G77_98864e7e4f5200c0086c2bc2bdc3b4c5df03af1a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/12449300BCC26/11.4/321371734002726_iPhone8,1_n71map_11.4-15F79_597faabafb3d0e5ad07f6d8cc2b571223339070f.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1248C20493EDBA/11.4.1/5146547718450618_iPhone8,1_n71map_11.4.1-15G77_ae2255f40b1113244c65b78cf281029ad725abec.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1248C20493EDBA/11.4/5146547718450618_iPhone8,1_n71map_11.4-15F79_393866cf4a727822a9ca1250a5709e7487f7ec9c.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1259AA3843C3BA/11.4/5165137204069306_iPhone8,1_n71map_11.4-15F79_8e9a473063f37afa88849beda5b01cd37c19ceca.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/12652028890826/11.4/12652028890826_iPhone7,2_n61ap_11.4-15F79_f989258ed819c36646667e00fe0e45a85c193e8a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/12711E1844C426/11.4/5190923650909222_iPhone7,2_n61ap_11.4-15F79_5028d40ad5a84b8415fb9c2464f545ca56c445cd.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/127C5A3010EEBA/11.4.1/5203276376108730_iPhone7,2_n61ap_11.4.1-15G77_7c5349ed6e0932e46a8151d40c7bc775bcd893db.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/127C5A3010EEBA/11.4/5203276376108730_iPhone7,2_n61ap_11.4-15F79_4e87dfced700959cf9977a6d4cf134a9627290c4.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/131002438EC26/11.4/335351654181926_iPhone8,1_n71map_11.4-15F79_dbe39b2de2e1a01bb958939688f78a815a733432.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/13156010C266BA/11.4.1/5371526899721914_iPhone7,2_n61ap_11.4.1-15G77_e42c592c020e204a2540c3d19e234225c817b793.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/13156010C266BA/11.4/5371526899721914_iPhone7,2_n61ap_11.4-15F79_cf11f646774892302ce12d802e607878f4ab165e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1346C20322C26/11.4.1/339113977981990_iPhone8,1_n71map_11.4.1-15G77_5d1d3a83267a4ae3d72c641cc2d6e8ed41ed3ae8.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1346C20322C26/11.4/339113977981990_iPhone8,1_n71map_11.4-15F79_1e4c912ac994a5cae0a3aad1df24c4816ce03416.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/13508108A1026/11.4.1/339783730204710_iPhone7,2_n61ap_11.4.1-15G77_8b0b45c8a1153da641f2fff94b4e72f56e96f236.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/13508108A1026/11.4/339783730204710_iPhone7,2_n61ap_11.4-15F79_1f6194bc42ed9290f59955a3dae2a1bfc9fb5f7c.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/137418243A8426/11.4.1/5475671593354278_iPhone7,2_n61ap_11.4.1-15G77_a61ec274c5722d7179fdf98d49af795d9c2a0492.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/137418243A8426/11.4/5475671593354278_iPhone7,2_n61ap_11.4-15F79_df2f0f5fce53f578d0ed8dfc9e5f249b6b8bb208.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1411D010841C26/11.4.1/5649084862176294_iPhone8,1_n71map_11.4.1-15G77_5fb4a7123e5eb110e9f3347c398b4dfc8012536e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1411D010841C26/11.4/5649084862176294_iPhone8,1_n71map_11.4-15F79_c4284f208843b5f6c571c0391d20e8f61a44a844.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/14181E30401DBA/11.4.1/5656017471806906_iPhone8,1_n71map_11.4.1-15G77_b401b00aa5a397d1d7448aed69c8c1f7c8b3d078.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/14181E30401DBA/11.4/5656017471806906_iPhone8,1_n71map_11.4-15F79_af9180215c13b78044f2163f4d345cd36c8f2243.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1429AC28876C26/11.4.1/5675318925290534_iPhone8,1_n71map_11.4.1-15G77_b4b6ae385a6df8a9e2650becfd696dfe74911c89.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1429AC28876C26/11.4/5675318925290534_iPhone8,1_n71map_11.4-15F79_a0a2c970946d2f6c857322b2e352a34b331614d7.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1449C10053A426/11.4.1/5710592817210406_iPhone7,2_n61ap_11.4.1-15G77_a726ab72c7ca29df6dfa9afb1411899737032680.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1449C10053A426/11.4/5710592817210406_iPhone7,2_n61ap_11.4-15F79_4e87dfced700959cf9977a6d4cf134a9627290c4.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/145D690853C826/11.4/5732205226870822_iPhone7,2_n61ap_11.4-15F79_b5708a62c4f1e9fc8556eff6f10550666f017dc7.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/146C2004134DBA/11.4.1/5748384297340346_iPhone7,2_n61ap_11.4.1-15G77_1c536a208952d81f672b46607536b12e0b4df26e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/146C2004134DBA/11.4/5748384297340346_iPhone7,2_n61ap_11.4-15F79_188a5e601cda90d395d9d4a1061718908d650a48.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/146CD20493EDBA/11.4.1/5749148809948602_iPhone8,1_n71map_11.4.1-15G77_9ea67caa0c166487556d92ca94a7d0552a3b6640.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/146CD20493EDBA/11.4/5749148809948602_iPhone8,1_n71map_11.4-15F79_b08a05c14bd607759434c8a40aedc8e66bb4e59c.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/147489242A1426/11.4.1/5757631900292134_iPhone7,2_n61ap_11.4.1-15G77_00d11f03d52076ccd492bf749aeb03ea193b41dd.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/147489242A1426/11.4/5757631900292134_iPhone7,2_n61ap_11.4-15F79_5d632835b8060e19fe2460323fcaacbb0a5e9948.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/14C64003A0426/11.4/365467360953382_iPhone7,2_n61ap_11.4-15F79_214fb4f1064d8ffc17d4a3f99ad335bd6326f1b2.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1505A404391826/11.4.1/5917176514549798_iPhone7,2_n61ap_11.4.1-15G77_b36b97395f3c80d4204242ea6a2647d80a7839bf.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1505A404391826/11.4/5917176514549798_iPhone7,2_n61ap_11.4-15F79_9a16aab2ba4bfcce940f8ca367cae810c666bd7c.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/15151204EB8826/11.4/5934141647063078_iPhone7,2_n61ap_11.4-15F79_887fd276e69afe4509cd63fb26150078ce7e342f.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/15243220D81426/11.4.1/5950772228920358_iPhone7,2_n61ap_11.4.1-15G77_9829e02ab63231152ed0945516a2cc9cec6cec1d.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/15243220D81426/11.4/5950772228920358_iPhone7,2_n61ap_11.4-15F79_6b83c5589cd285f448f54e17f50cbe9a01513b08.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/15352408E90426/11.4/5969403395507238_iPhone7,2_n61ap_11.4-15F79_52d5ec598403072722c14b2737ef3a477fac01c8.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1565A018681026/11.4.1/6022712789569574_iPhone7,2_n61ap_11.4.1-15G77_cb015fec1e5944e68b1d7ed0f34bdab89c064594.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1565A018681026/11.4/6022712789569574_iPhone7,2_n61ap_11.4-15F79_6c181fc37cda434ce82c367cae0c4c460b8c4f1b.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/15696904B9A426/11.4.1/6026874282681382_iPhone7,2_n61ap_11.4.1-15G77_3c166c9d84ca31bceb6dd0899121953d87519d7b.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/15696904B9A426/11.4/6026874282681382_iPhone7,2_n61ap_11.4-15F79_b6702342dc343892ca24569b1acbe5a47d5a56d1.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/15743C28D26C26/11.4/6038776242662438_iPhone8,1_n71map_11.4-15F79_8e3c83fd5a7c724f63049fa22c1a5980220de166.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/157994288A2426/11.4/6044651753186342_iPhone7,2_n61ap_11.4-15F79_3dfd234104ad1c183b7e06c2b96bb8944cabb648.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1605410381426/11.4.1/1605410381426_iPhone7,2_n61ap_11.4.1-15G77_c0f69aee8516b0d7d62ed67bc718c7da27d00779.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1605410381426/11.4/1605410381426_iPhone7,2_n61ap_11.4-15F79_17fadb770d794fef93edb8b405769db90d770b36.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/16082A206A4426/11.4.1/6201426513118246_iPhone7,2_n61ap_11.4.1-15G77_7b1976c3438dff6a16e59d3bab073b52ab343af2.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/16082A206A4426/11.4/6201426513118246_iPhone7,2_n61ap_11.4-15F79_7d4748c919ad734980fcb5e8d01b92ef8ef936b5.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1608E1090AEBA/11.4.1/387638256250554_iPhone7,2_n61ap_11.4.1-15G77_eb3d9ab5ab70bc91baae06ce980616739c13acdd.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1608E1090AEBA/11.4/387638256250554_iPhone7,2_n61ap_11.4-15F79_ec4450c76cb9be41e485cb7252f9c59cad356e48.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1610438E026BA/11.4.1/388145738688186_iPhone7,2_n61ap_11.4.1-15G77_ed039a50d0eb1658db2c8c5763d7e9fb04853978.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1610438E026BA/11.4/388145738688186_iPhone7,2_n61ap_11.4-15F79_a2c5556390a7f87dc80dba4aa4e142c2f25b38c6.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/161131288143BA/11.4.1/6211352318264250_iPhone8,1_n71map_11.4.1-15G77_164d097698bb64a83c4de7896b940a6b41d899cc.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/161131288143BA/11.4/6211352318264250_iPhone8,1_n71map_11.4-15F79_d75357bd6483f7053c3b908d00f770f41b5cd9c3.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1619E1040A4426/11.4/6220903713752102_iPhone7,2_n61ap_11.4-15F79_aec8c0324137dd46bcaa2c89eeb5bc43e5040941.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/161C8408988826/11.4.1/6223802893109286_iPhone7,2_n61ap_11.4.1-15G77_ed2bf7ab1ced2ba02ba5017008cd32a992798c8d.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/161C8408988826/11.4/6223802893109286_iPhone7,2_n61ap_11.4-15F79_adf3a0e04f73af5f4e2454e3386e2a4e3389a081.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/16202604D08426/11.4.1/6227797149254694_iPhone7,2_n61ap_11.4.1-15G77_a926b7a9f2eb5ea7f59715eedc701f0e0c2ea085.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/16202604D08426/11.4/6227797149254694_iPhone7,2_n61ap_11.4-15F79_ce8d00b2e21a57d44e576dd68a35813e10188a56.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1628DA189B0226/11.4.1/6237366668427814_iPhone8,1_n71map_11.4.1-15G77_c7027c0edb4e02e04f2f067729b79b02df344e0e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1628DA189B0226/11.4/6237366668427814_iPhone8,1_n71map_11.4-15F79_bbeba7e38f01081b39a19748f1cbfb69d8ae8eb4.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1635542078EC26/11.4/6251084925955110_iPhone8,1_n71map_11.4-15F79_8d3ea47f786ace7fed3cca6f71996ea8d02977c6.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1639A6080A2426/11.4.1/6255834749871142_iPhone7,2_n61ap_11.4.1-15G77_b9d760a305611f73179345a5a2e348f2ff7ba655.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1639A6080A2426/11.4/6255834749871142_iPhone7,2_n61ap_11.4-15F79_812a8125e3f62df2b4b72a6e020bea2b83cc0a7d.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/163C8E3078A826/11.4/6259030883870758_iPhone7,2_n61ap_11.4-15F79_71910ef5da15dac4f8616ffafc03f3830294df16.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/164CD9004143BA/11.4.1/6276944383525818_iPhone8,1_n71map_11.4.1-15G77_4a09d4d0a9f6863269f954df0388394691d2e689.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/164CD9004143BA/11.4/6276944383525818_iPhone8,1_n71map_11.4-15F79_0a3ac8dc1745ebc4946616c6f4d25bbdeefe5b63.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1650A1380BEC26/11.4/6281102847896614_iPhone8,1_n71map_11.4-15F79_09bf81a66f91acac051abd3f0f6eabe663050d15.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/16599000DB0226/11.4.1/6290924512150054_iPhone8,1_n71map_11.4.1-15G77_5fb4a7123e5eb110e9f3347c398b4dfc8012536e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/16599000DB0226/11.4/6290924512150054_iPhone8,1_n71map_11.4-15F79_c4284f208843b5f6c571c0391d20e8f61a44a844.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/167486283A0226/11.4.1/6320569036964390_iPhone7,2_n61ap_11.4.1-15G77_ce825dd59abfed86cf0d9efc0f2e0ceeccc8912a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/167486283A0226/11.4/6320569036964390_iPhone7,2_n61ap_11.4-15F79_7cf6dd894810a50a94eb439d399e87b7c2692c50.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/16752438681826/11.4/16752438681826_iPhone7,2_n61ap_11.4-15F79_994bb51598ddb40928410d56512e46cb2d91ee84.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1678CE28C3C3BA/11.4.1/6325276330148794_iPhone8,1_n71map_11.4.1-15G77_c467f2cbf431413275845458e5da4fc9f49ab87a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1678CE28C3C3BA/11.4/6325276330148794_iPhone8,1_n71map_11.4-15F79_992e76addb1b2ce690503a78bbf8c5c448c984ef.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1694908F14426/11.4/397237380269094_iPhone7,2_n61ap_11.4-15F79_eee20b39ec4686094eecbf421a7701cc1dcb7eb7.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/177F49F50EC/11.4.1/1614716817644_iPhone8,1_n71ap_11.4.1-15G77_50c05d01d47c9b3092e2ae7c08f45ce4d52919c8.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/177F49F50EC/11.4/1614716817644_iPhone8,1_n71ap_11.4-15F79_5704ff87dc9876d47fae2fd3b8b107d7dc45e5ac.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1834C618062C26/11.4.1/6813424852282406_iPhone8,1_n71map_11.4.1-15G77_0e2cf0671d2c0eae01bbef763721004ea8ec779a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1834C618062C26/11.4/6813424852282406_iPhone8,1_n71map_11.4-15F79_a381fb0cffadded0c295548b7bf5d61a91ab0736.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/186DEA08991826/11.4.1/6876251375081510_iPhone7,2_n61ap_11.4.1-15G77_d2375a4838945383b8271d369636e287945e0483.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/186DEA08991826/11.4/6876251375081510_iPhone7,2_n61ap_11.4-15F79_efd72244020321bf54cbb6c5640ff684659dfeb1.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/18CCE169E6C/11.4.1/1704264638060_iPhone8,1_n71ap_11.4.1-15G77_252f13d8347e734bdac7d752b376463e5be75fd8.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/18CCE169E6C/11.4/1704264638060_iPhone8,1_n71ap_11.4-15F79_45598af9dd9a51908164963eaf0e56d50d5bb1e6.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/18ECE09ABAC/11.4.1/1712853724076_iPhone8,1_n71ap_11.4.1-15G77_b66a1109ccedc00d8a2c395ac4e7645873566e95.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/18ECE09ABAC/11.4/1712853724076_iPhone8,1_n71ap_11.4-15F79_35cad7ab47a6906fc8aedfd708bdfd5fa7e82362.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1915A600FB0226/11.4/7060677142970918_iPhone8,1_n71map_11.4-15F79_010010569d73ca06131b5908f49c5ed9a66ba80b.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1935192498EC26/11.4.1/7095256522222630_iPhone8,1_n71map_11.4.1-15G77_63bebe3de43f947892ed68795215aa5756006311.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1935192498EC26/11.4/7095256522222630_iPhone8,1_n71map_11.4-15F79_d01219659de1a0eb847ac5b7a2f8cb9bacd1ca78.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/19498A303A8426/11.4.1/7117732281222182_iPhone7,2_n61ap_11.4.1-15G77_12230ec8b6812e5bb0a78aafcee411bf61bd0ea6.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/19498A303A8426/11.4/7117732281222182_iPhone7,2_n61ap_11.4-15F79_1ef5ae1d2dec105e1c51dd79e6aa1569182ff800.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/197988380363BA/11.4.1/7170500380025786_iPhone8,1_n71map_11.4.1-15G77_82c5157a9d774bb4a303801ea5e17fc82c556b54.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/197988380363BA/11.4/7170500380025786_iPhone8,1_n71map_11.4-15F79_68f1d0a473adc8dbc0a4c389072d9a7284dc875c.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A043A30D8EC26/11.4.1/7322997368613926_iPhone8,1_n71map_11.4.1-15G77_90c01660ae5f697ea65dfe0fb71c2dee17d46cc2.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A043A30D8EC26/11.4/7322997368613926_iPhone8,1_n71map_11.4-15F79_4ca4a9925284904492753257f76ae526ad58bff8.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A105A186BEC26/11.4/7336328537304102_iPhone8,1_n71map_11.4-15F79_969ade6b01a1537c0db07c14c233851f05fd5ed3.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A15A23051A426/11.4/7342135734019110_iPhone7,2_n61ap_11.4-15F79_a4b14c85f40c675bad99889f1489bea62e7f42e1.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A15D624511026/11.4.1/7342358870954022_iPhone7,2_n61ap_11.4.1-15G77_b8bfa985151c3cecaa3d0be85a09e34a0d808a9f.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A15D624511026/11.4/7342358870954022_iPhone7,2_n61ap_11.4-15F79_5d2ec24b52fb6b9d89df4e4eb14a87b6c8bfa971.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A256438F91426/11.4.1/7359461777282086_iPhone7,2_n61ap_11.4.1-15G77_150b184329293970e001b453526a760aee7accec.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A256438F91426/11.4/7359461777282086_iPhone7,2_n61ap_11.4-15F79_1f6194bc42ed9290f59955a3dae2a1bfc9fb5f7c.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A343128078226/11.4/7375735124099622_iPhone8,1_n71map_11.4-15F79_bcf4cd1b8d23551c2aa1508bacdadf7eca8c5ec2.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A41DA00F0A426/11.4/7390753968923686_iPhone7,2_n61ap_11.4-15F79_0b224443f65568c61a1808e4fe6e994098128b07.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A5C3600690426/11.4.1/7419736399348774_iPhone7,2_n61ap_11.4.1-15G77_98c9889b8aea0d312a0f3d110e5e70465ae35183.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A5C3600690426/11.4/7419736399348774_iPhone7,2_n61ap_11.4-15F79_ef3568a317f38f9b0ec8381f7944b594eb177fe1.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A616620D8EC26/11.4/7425440660122662_iPhone8,1_n71map_11.4-15F79_bd785f0841d0c31508e4deb6aa3cc5fbeba3dc58.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A705230BA8426/11.4.1/7441847701636134_iPhone7,2_n61ap_11.4.1-15G77_50c05d01d47c9b3092e2ae7c08f45ce4d52919c8.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A705230BA8426/11.4/7441847701636134_iPhone7,2_n61ap_11.4-15F79_c29c2bb4b2fc3eaac3b084a9a69caaf4162d1302.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A783A088BA826/11.4.1/7450540041283622_iPhone7,2_n61ap_11.4.1-15G77_c744b94b679b979cb5dd892ae201e8845de2db1b.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1A783A088BA826/11.4/7450540041283622_iPhone7,2_n61ap_11.4-15F79_86cfcac53919508a08802646bd1e483a655eb868.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1C0DA400DB0826/11.4.1/7896297388050470_iPhone7,2_n61ap_11.4.1-15G77_f562113ca5eb00a132b8a28e2449edbbc206a1ef.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1C0DA400DB0826/11.4/7896297388050470_iPhone7,2_n61ap_11.4-15F79_56381819c88cc976144903ee03b42086de13281f.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1C141C18690426/11.4.1/7903410249073702_iPhone7,2_n61ap_11.4.1-15G77_7a71a0987a36e3b4099fbe1a349194bc61996185.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1C141C18690426/11.4/7903410249073702_iPhone7,2_n61ap_11.4-15F79_4dd31825760b14ec34b0bf9eac69a4eb44a94b87.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1C1C9420D8EC26/11.4/7912721879723046_iPhone8,1_n71map_11.4-15F79_40446acb2c9c10beeb3d95c66859f9ca55be8113.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1C2D8A18E81026/11.4.1/7931370494496806_iPhone7,2_n61ap_11.4.1-15G77_990e293a1b0966b71e89ef8f77ef3970f3f6fdba.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1C2D8A18E81026/11.4/7931370494496806_iPhone7,2_n61ap_11.4-15F79_1c86b3b07fd2c64915d6366cdf7ab8e5a39e7065.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1C44D024D26026/11.4/7956960109551654_iPhone7,2_n61ap_11.4-15F79_9c0e579d9c2bccc234b85ae69264e62219157fbe.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1C498928322C26/11.4/7962152781622310_iPhone8,1_n71map_11.4-15F79_a4932bf52ae1d054abfd29a2a0369c06abe4fcd6.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1C604A18454226/11.4.1/7987170698936870_iPhone7,2_n61ap_11.4.1-15G77_970a854412fa1c6973ae66519113b03434f46cfc.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1C604A18454226/11.4/7987170698936870_iPhone7,2_n61ap_11.4-15F79_10ce6a3a82a35f6a8eaebc5ec748d146a2f1fdb6.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1C74213007E426/11.4/8008985236464678_iPhone7,2_n61ap_11.4-15F79_eef7434ac375841c10522c03c5fd07cee56e4cec.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1D141E08D26C26/11.4.1/8184893554191398_iPhone8,1_n71map_11.4.1-15G77_832ff6061216fd5594b3212f1a4be85a5f453d1a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1D141E08D26C26/11.4/8184893554191398_iPhone8,1_n71map_11.4-15F79_b7067731c373c0564f150a499aba654f9f37804b.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1D158400401DBA/11.4/8186431008677306_iPhone8,1_n71map_11.4-15F79_80382f36adb502270b447a5e13ffffd234dda746.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1D281E24998826/11.4.1/8206884252780582_iPhone7,2_n61ap_11.4.1-15G77_d8fcf5999ee786c927e63ed5192d33757960d32b.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1D281E24998826/11.4/8206884252780582_iPhone7,2_n61ap_11.4-15F79_c58a89fa14c8fd79798d99015385d7e16416f85a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1D553120C0C9BA/11.4/8256443815872954_iPhone7,2_n61ap_11.4-15F79_c5fe2b80966edc921c17ac26836e08f68015a7a5.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1D58C2200BC426/11.4.1/8260365109150758_iPhone7,2_n61ap_11.4.1-15G77_7e2e962ce89e371db0deadce239d26b4d5e1f6be.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1D58C2200BC426/11.4/8260365109150758_iPhone7,2_n61ap_11.4-15F79_e9bcde29e7ed220fcd6627138d9cf2d98a8e1514.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1D7498209B8426/11.4/8290971055522854_iPhone7,2_n61ap_11.4-15F79_5afc7a3e93e16cb901f0250f0bcee2de16b87416.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E039818214EBA/11.4/8448201076068026_iPhone7,2_n61ap_11.4-15F79_994bb51598ddb40928410d56512e46cb2d91ee84.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E056E10290826/11.4/8450219576985638_iPhone7,2_n61ap_11.4-15F79_4a8be8a03008a2b13049764718c3692043f09039.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E05C810314426/11.4/8450606124581926_iPhone7,2_n61ap_11.4-15F79_25619eec3a08f37ed32c99008521dac7c793913e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E083108EBA826/11.4.1/8453255997401126_iPhone7,2_n61ap_11.4.1-15G77_98c9889b8aea0d312a0f3d110e5e70465ae35183.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E083108EBA826/11.4/8453255997401126_iPhone7,2_n61ap_11.4-15F79_9525a2cd187fd1bd06cd559d914bc7c768e3ece3.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E09DA0433EC26/11.4.1/8455081279351846_iPhone8,1_n71map_11.4.1-15G77_4036f7a1da13ba963c95f3e9d358d6481e5c59df.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E09DA0433EC26/11.4/8455081279351846_iPhone8,1_n71map_11.4-15F79_597faabafb3d0e5ad07f6d8cc2b571223339070f.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E0C5E08D11026/11.4.1/8457847315697702_iPhone7,2_n61ap_11.4.1-15G77_00d11f03d52076ccd492bf749aeb03ea193b41dd.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E0C5E08D11026/11.4/8457847315697702_iPhone7,2_n61ap_11.4-15F79_c4d919388d0b04e5aa113a76fc28f15affc75992.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E0CE938476826/11.4.1/8458445112436774_iPhone7,2_n61ap_11.4.1-15G77_d4dc01a620c6a787493ae4a72593ea2c75dd8bcc.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E0CE938476826/11.4/8458445112436774_iPhone7,2_n61ap_11.4-15F79_d7ab3e39f30b012d834f47ba41a40d9f3f4f2d74.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E102600FB0226/11.4.1/8462004712571430_iPhone8,1_n71map_11.4.1-15G77_811a5b321b7c37c00ae0d3294a968d230e944728.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E102600FB0226/11.4/8462004712571430_iPhone8,1_n71map_11.4-15F79_ffbb3b5cbfe3e1dfc4817f455006d69c42163abb.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E1059300BCC26/11.4.1/8462224545532966_iPhone8,1_n71map_11.4.1-15G77_f274cf7ad23502cd17080ddebb0542969970d857.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E1059300BCC26/11.4/8462224545532966_iPhone8,1_n71map_11.4-15F79_fcc0d40f60ec8a2cc8312a5774f38bed45c166fb.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E14DC0809AC26/11.4/8467184561531942_iPhone8,1_n71map_11.4-15F79_860b680c26531adf602c293d895aab285f782de4.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E15C608F91426/11.4.1/8468189599568934_iPhone7,2_n61ap_11.4.1-15G77_1824b3e38391f63f3fe318d5f695715ba5afabef.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E15C608F91426/11.4/8468189599568934_iPhone7,2_n61ap_11.4-15F79_ea64fa9b244905eea9a120ec6d78e0e61d0df80e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E189218F3C426/11.4/8471265064240166_iPhone7,2_n61ap_11.4-15F79_90c027641cced584faca6e976264e01889730f37.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E1928008B8226/11.4/8471908899848742_iPhone8,1_n71map_11.4-15F79_28efd9f919d405552434b8b91145499ce2d52ebc.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E1D2430DA8426/11.4/8476290576974886_iPhone7,2_n61ap_11.4-15F79_433d44b4223b3f7cd3da2282364e8481f0cdcda6.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E5432304143BA/11.4/8536823836001210_iPhone8,1_n71map_11.4-15F79_ca1d11c3e727af34ad4571370d55394b3c9f8e7d.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E55C600308426/11.4/8538558196384806_iPhone7,2_n61ap_11.4-15F79_40446acb2c9c10beeb3d95c66859f9ca55be8113.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E5D0E24336026/11.4.1/8546564619591718_iPhone7,2_n61ap_11.4.1-15G77_5fb4a7123e5eb110e9f3347c398b4dfc8012536e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E5D0E24336026/11.4/8546564619591718_iPhone7,2_n61ap_11.4-15F79_6baf84d52693282990a9c9c6234127b6272e9567.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E601208BB6026/11.4.1/8549879873495078_iPhone7,2_n61ap_11.4.1-15G77_a632ac47ad60eaef7157b07b6166b1fe0991add7.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E601208BB6026/11.4/8549879873495078_iPhone7,2_n61ap_11.4-15F79_af47b24c6fbc86d876a5a7789be98d8a1edacb3e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E694A38508426/11.4.1/8560016794616870_iPhone7,2_n61ap_11.4.1-15G77_33ee5a267cec30d1255e013f299b5415ef4cadc8.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E694A38508426/11.4/8560016794616870_iPhone7,2_n61ap_11.4-15F79_6e0aa68cd0dd5109cf48c69fd6c708442522676d.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E752628511026/11.4.1/8573056046927910_iPhone7,2_n61ap_11.4.1-15G77_e1f2e1819e4c3c216f740bef71c0523ad0cab4cb.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E752628511026/11.4/8573056046927910_iPhone7,2_n61ap_11.4-15F79_33fca845365deafde2019ac6e9e5223bd6f2b19c.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1E7CE0242A1426/11.4/8581551422575654_iPhone7,2_n61ap_11.4-15F79_184d228d62ed36713d316e269123641c23908244.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1F60C5E85EC/11.4.1/2156281103852_iPhone8,1_n71ap_11.4.1-15G77_11758f69e9be712b829984cdd203f1f002110570.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1F60C5E85EC/11.4/2156281103852_iPhone8,1_n71ap_11.4-15F79_5a19f54348595b0dd9bda5123dd9ca0dc79e4a2c.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/1F64FBA662C/11.4/2157411198508_iPhone8,1_n71ap_11.4-15F79_1a96f8fa3dc7665f99cc3daae78368bcb45ebd1a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/2059610981026/11.4/2059610981026_iPhone7,2_n61ap_11.4-15F79_deb07540fae39e45d5277282a7f346676a740c4a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/20C4628326026/11.4/576445415055398_iPhone7,2_n61ap_11.4-15F79_10a4cd3530b8b8f6982a349c3a2c0c0039da4583.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/20F2F31D1CC/11.4.1/2264239559116_iPhone8,1_n71ap_11.4.1-15G77_3be4387f52c2d3518354ab9ef12c93b15570d6ab.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/20F2F31D1CC/11.4/2264239559116_iPhone8,1_n71ap_11.4-15F79_44092a6847a63aa9a56292688f29174e742e3881.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/225E118D26C26/11.4.1/604598667734054_iPhone8,1_n71map_11.4.1-15G77_a8dc0c38f9bcb121994ff2a404013cf10033a00d.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/225E118D26C26/11.4/604598667734054_iPhone8,1_n71map_11.4-15F79_241fb9a576e63384d561b8ee685e8ea715060f42.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/230EE1861EDBA/11.4.1/616749122842042_iPhone8,1_n71map_11.4.1-15G77_a2bdb4f81e895552fc3f0f270b7ca1d44cfe053c.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/230EE1861EDBA/11.4/616749122842042_iPhone8,1_n71map_11.4-15F79_94d1610c5cbdda6ee6a5f28915f11b1f88428572.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/2351830C266BA/11.4/621327966955194_iPhone7,2_n61ap_11.4-15F79_b5708a62c4f1e9fc8556eff6f10550666f017dc7.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/2559118324826/11.4.1/2559118324826_iPhone7,2_n61ap_11.4.1-15G77_25f940d0392a3ef8e570d91968885d4ce778bf0a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/2559118324826/11.4/2559118324826_iPhone7,2_n61ap_11.4-15F79_5abba462f52be60e8e36c6984c051b6ab142c245.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/25DA824E026BA/11.4/665926707979962_iPhone7,2_n61ap_11.4-15F79_bdbf1b654848d0faa9cf764264bc12c8274b2538.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/274AEDE5B2C/11.4/2700173269804_iPhone8,1_n71ap_11.4-15F79_f887ea7ff51a2ab0c2222410ff1f37b97b705019.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/2750DCD4ECC/11.4.1/2701765988044_iPhone8,1_n71ap_11.4.1-15G77_8f6c8996e2958828f37bd6f1b3c6f4a271a7a6f6.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/2750DCD4ECC/11.4/2701765988044_iPhone8,1_n71ap_11.4-15F79_d4c14674e633ce9b408e2a782ac43109f4998c01.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/2758FB08B2C/11.4/2703945141036_iPhone8,1_n71ap_11.4-15F79_2abc6e3237749c997ea18838d0b6938ba268c082.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/275F70FB31C/11.4.1/2705679430428_iPhone8,1_n71ap_11.4.1-15G77_00d11f03d52076ccd492bf749aeb03ea193b41dd.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/275F70FB31C/11.4/2705679430428_iPhone8,1_n71ap_11.4-15F79_4feae7c8c33483bbccdcc8c07a2b8aedefb562cf.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/2768C7540AC/11.4.1/2708185890988_iPhone8,1_n71ap_11.4.1-15G77_0b39fc9d8db1a89fc6f2e80447a55027f626c354.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/2768C7540AC/11.4/2708185890988_iPhone8,1_n71ap_11.4-15F79_b49620b9d1fdb61f1fef6e8000f1eb1fd756c896.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/27CCA28B98C26/11.4/700157661908006_iPhone7,2_n61ap_11.4-15F79_d4a93ebac1cb09e7269c53db37136a4412b446e8.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/28E4C61A41C/11.4.1/2810190079004_iPhone8,1_n71ap_11.4.1-15G77_be9e2bb557c71be00550abe4f0cf3985dd126f56.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/28E4C61A41C/11.4/2810190079004_iPhone8,1_n71ap_11.4-15F79_0fbea0f976a89ae19349d59900baf625f137de5d.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/2B60EA3DE1C/11.4.1/2980952923676_iPhone8,1_n71ap_11.4.1-15G77_85b016a7f7dc8fc4b48157aeb2ffe550a2e65fea.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/2B60EA3DE1C/11.4/2980952923676_iPhone8,1_n71ap_11.4-15F79_1e4c912ac994a5cae0a3aad1df24c4816ce03416.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/30C0E2D7B1C/11.4/3350312352540_iPhone8,1_n71ap_11.4-15F79_6e962b89cf707cff972344692132148e8e4f2b59.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/30F2FA1A41C/11.4.1/3363758515228_iPhone8,1_n71ap_11.4.1-15G77_61fb2417d3c0c5c2c001a519d52e99c394444c2e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/30F2FA1A41C/11.4/3363758515228_iPhone8,1_n71ap_11.4-15F79_ba79bac951fda4e7fb2c987315f6cbc5b9053229.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/3285C18F9A426/11.4/888800951247910_iPhone7,2_n61ap_11.4-15F79_4c7aeffe609c11740e85e0f87835a5c8225b59c3.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/335461028A426/11.4/902999965213734_iPhone7,2_n61ap_11.4-15F79_bcf4cd1b8d23551c2aa1508bacdadf7eca8c5ec2.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/3360F34D9CC/11.4.1/3530718239180_iPhone8,1_n71ap_11.4.1-15G77_4c06c2d484d9c9be2978e283c57f2e2e0b8be843.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/3360F34D9CC/11.4/3530718239180_iPhone8,1_n71ap_11.4-15F79_e5c69b17f51f91b4e58841fc2804679661ede824.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/336CDD36FAC/11.4/3533916303276_iPhone8,1_n71ap_11.4-15F79_df1c340e7fd48574539bf88d18b0c9641941a811.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/3449628F81C26/11.4.1/919836653263910_iPhone8,1_n71map_11.4.1-15G77_320471c08a241706d0361e41491c11b0b7c91122.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/3449628F81C26/11.4/919836653263910_iPhone8,1_n71map_11.4-15F79_c7feb5346b4137c3ed0cd0d86f6c694fb5330273.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/375CE8459EC/11.4.1/3804510837228_iPhone8,1_n71ap_11.4.1-15G77_ed90d710af268db3881336c075a899b2a6f585c3.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/375CE8459EC/11.4/3804510837228_iPhone8,1_n71ap_11.4-15F79_7db8dc53518863f5315dbfa8db49b86cd7cf4a39.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/3B4CFB5C09C/11.4.1/4075113791644_iPhone8,1_n71ap_11.4.1-15G77_6c5a6a3f62fb5d551747ba275928f3dee0ea65ed.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/3B4CFB5C09C/11.4/4075113791644_iPhone8,1_n71ap_11.4-15F79_5732eac087e70a7cec6c87746f8cf6d64e92255c.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/3B5CDA4CAEC/11.4/4079374093036_iPhone8,1_n71ap_11.4-15F79_156872b8f41fb60eebd06529abf25eff82a8d76d.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/3F50FD78A1C/11.4.1/4351067654684_iPhone8,1_n71ap_11.4.1-15G77_3f910fb7cb990a3bcbea0bdf5a35d148155e14a4.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/3F50FD78A1C/11.4/4351067654684_iPhone8,1_n71ap_11.4-15F79_812a8125e3f62df2b4b72a6e020bea2b83cc0a7d.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/3F68D167E2C/11.4.1/4357463899692_iPhone8,1_n71ap_11.4.1-15G77_2170cb7c85bd745db3a998726992f0b94700e4ec.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/3F68D167E2C/11.4/4357463899692_iPhone8,1_n71ap_11.4-15F79_7bb1f0942fc0712962b60d186e9d5b8019e36795.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/4091E382A1026/11.4/1135925302792230_iPhone7,2_n61ap_11.4-15F79_10c96783fe6083d153f3e796e579323cb70337e8.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/40CA92400CEBA/11.4.1/1139820499881658_iPhone7,2_n61ap_11.4.1-15G77_468a2e2ecb959d5310d1b8fbeab2c9b42d137b87.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/40CA92400CEBA/11.4/1139820499881658_iPhone7,2_n61ap_11.4-15F79_9ac14be262d42a8bd48b8d8e4b3fd5553f702502.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/40DF35148A8/11.4/4457963276456_iPhone8,1_n71ap_11.4-15F79_e37a950bedd782ca0d2eff8a2aaa1f24dfb6fc4d.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/43748869548/11.4.1/43748869548_iPhone8,1_n71ap_11.4.1-15G77_01df88bd2610dd564cac365e9d9ce2a31c18254a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/43748869548/11.4/43748869548_iPhone8,1_n71ap_11.4-15F79_34175408b1de96ba35c8629918514f3a9ad47c07.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/444A618BB0226/11.4/1201380077011494_iPhone8,1_n71map_11.4-15F79_effeb19ae84e2451b6cb708e414863e863b8d85e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/4458E2833EC26/11.4/1202376769006630_iPhone8,1_n71map_11.4-15F79_5a5de2fd8213078035ab4e04c1159ba9e26efd72.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/44C4008F22C26/11.4/1209737818549286_iPhone8,1_n71map_11.4-15F79_c37092501d8c7c381e66f30113d4b9ae4437eb4b.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/450E80444C826/11.4/1214857341093926_iPhone7,2_n61ap_11.4-15F79_46d21f48f3bfcfec12d03d5972d4c2d1a3705bbe.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/455C838F98C26/11.4.1/1220218344541222_iPhone7,2_n61ap_11.4.1-15G77_01df88bd2610dd564cac365e9d9ce2a31c18254a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/455C838F98C26/11.4/1220218344541222_iPhone7,2_n61ap_11.4-15F79_581e259a498affec98a82f422a1b98ff6f74c782.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/4594808D26C26/11.4/1224065827367974_iPhone8,1_n71map_11.4-15F79_6cadb5774ad1517e63f17fc1f4ece9b9b53e34e6.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/464310029E826/11.4.1/1236061525764134_iPhone7,2_n61ap_11.4.1-15G77_a61ec274c5722d7179fdf98d49af795d9c2a0492.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/464310029E826/11.4/1236061525764134_iPhone7,2_n61ap_11.4-15F79_171c0389979a46e2bfd909f5f67d22f05c4b53cd.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/48EAB875E68/11.4.1/5010809642600_iPhone8,1_n71ap_11.4.1-15G77_b09abca96668acc57c8cae172caf88719bef0519.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/48EAB875E68/11.4/5010809642600_iPhone8,1_n71ap_11.4-15F79_e3629a7b8a56e09daee546e34a1207a67a164f2c.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/4F4A9B973C8/11.4/5448866034632_iPhone8,1_n71ap_11.4-15F79_0636a43d365355f5c928628aa52952874721f48c.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/525E418E81026/11.4/1449036484186150_iPhone7,2_n61ap_11.4-15F79_5fd6125f28147a417c78101956e826439f0b0963.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/5294A1023C3BA/11.4.1/1452772958651322_iPhone8,1_n71map_11.4.1-15G77_d84b63ba91ea2c03e9c18b1ca1afa1e67c6d4bf0.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/5294A1023C3BA/11.4/1452772958651322_iPhone8,1_n71map_11.4-15F79_d3973aa961584019c53c51f42bcbe479616d58b4.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/5344A043A8426/11.4.1/1464867386721318_iPhone7,2_n61ap_11.4.1-15G77_e9908ec5d934a416abb44bfbcdf167cb5e4fe302.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/5344A043A8426/11.4/1464867386721318_iPhone7,2_n61ap_11.4-15F79_a2aa141f6f22dc820f116f802434308aaaf23ba0.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/53488417228/11.4.1/53488417228_iPhone8,1_n71ap_11.4.1-15G77_b4d8478172d5cb7bfa2bfeaa0d10a7b01b65fb4e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/53488417228/11.4/53488417228_iPhone8,1_n71ap_11.4-15F79_5bd23632234d302339293317be25d7bf4b174ead.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/535C9D82A68/11.4.1/5728577792616_iPhone8,1_n71ap_11.4.1-15G77_6f00043edf3a0927b307e400b320a2d19312f0f2.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/535C9D82A68/11.4/5728577792616_iPhone8,1_n71ap_11.4-15F79_6a2d4b32c11bb69e8d9fafab971e55cb7b1fad53.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/551AC0881EDBA/11.4.1/1497174202510778_iPhone8,1_n71map_11.4.1-15G77_af43eda007d7d5fb3acf38c8949aa46a6fef75f1.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/551AC0881EDBA/11.4/1497174202510778_iPhone8,1_n71map_11.4-15F79_995aecf6e34c93d3812b585e18f5f42686bae89b.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/56D3110D81426/11.4/1527432386974758_iPhone7,2_n61ap_11.4-15F79_38963a2f3ba9be1d369aa8c225752d086a88d029.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/57409465348/11.4.1/57409465348_iPhone8,1_n71ap_11.4.1-15G77_1824b3e38391f63f3fe318d5f695715ba5afabef.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/57409465348/11.4/57409465348_iPhone8,1_n71ap_11.4-15F79_3a3c26eb304f82a63ed0eeacccdaa826d2031f52.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/575C824A768/11.4.1/6003427157864_iPhone8,1_n71ap_11.4.1-15G77_5eb58520283c129aa760cd726a4eac84f02f3ad7.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/575C824A768/11.4/6003427157864_iPhone8,1_n71ap_11.4-15F79_d75357bd6483f7053c3b908d00f770f41b5cd9c3.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/5B508D1C548/11.4.1/6275095184712_iPhone8,1_n71ap_11.4.1-15G77_e3acaf081173099663f4c1cea1e3c2464b21d689.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/5B508D1C548/11.4/6275095184712_iPhone8,1_n71ap_11.4-15F79_130533b34c0635394f7522aa3c71ab9753f57788.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/5F6CB952468/11.4/6557535642728_iPhone8,1_n71ap_11.4-15F79_c6061ef1b022802e75b75d7400e97e5b0bffd0b6.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/6003E10B80426/11.4.1/1689116428731430_iPhone7,2_n61ap_11.4.1-15G77_5077fd6e98d8f2cac5224c6e6bcde23ce4f7296a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/6003E10B80426/11.4/1689116428731430_iPhone7,2_n61ap_11.4-15F79_72ac22781345a62e17fda2d6ca997b0aec686fec.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/60C2B241648/11.4/6649333159496_iPhone8,1_n71ap_11.4-15F79_0863a891d30b6c081eb4a8b65747d604142082a9.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/6116A24840826/11.4.1/1707997437102118_iPhone7,2_n61ap_11.4.1-15G77_b36b97395f3c80d4204242ea6a2647d80a7839bf.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/6116A24840826/11.4/1707997437102118_iPhone7,2_n61ap_11.4-15F79_fbb1bd9d4a2773a77291cf6192b5cab5b60fd806.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/625241847E426/11.4/1729686816678950_iPhone7,2_n61ap_11.4-15F79_488686cd0c4d22e584e335033c54c87158d0b1ec.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/62DD908F1AC26/11.4/1739260041473062_iPhone8,1_n71map_11.4-15F79_53a5e2a278e4be288e1762a135dd6a1aaf3ab0de.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/63D3908474826/11.4.1/1756165021583398_iPhone7,2_n61ap_11.4.1-15G77_6cb3e7922a645abb19dfc07deb5d214dd2b1595c.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/63D3908474826/11.4/1756165021583398_iPhone7,2_n61ap_11.4-15F79_2b97eee7d15ecfb83365df788aa0ed2877d4e4e7.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/6512828501426/11.4/6512828501426_iPhone7,2_n61ap_11.4-15F79_0a5c009b330a4ae2126e0dd5861c341800588933.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/6514E00D81426/11.4.1/1778245323723814_iPhone7,2_n61ap_11.4.1-15G77_7a3ecfd213f0699f3b5817f4d6e6ef6cc195e181.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/6514E00D81426/11.4/1778245323723814_iPhone7,2_n61ap_11.4-15F79_0b664b0bce495b08818ae4391dee45e77d577187.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/65DE21887AC26/11.4.1/1792075515800614_iPhone8,1_n71map_11.4.1-15G77_3dbbf9031a4f73b4a4f2f9e53bbca7b5f8e50d4f.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/65DE21887AC26/11.4/1792075515800614_iPhone8,1_n71map_11.4-15F79_0a3ac8dc1745ebc4946616c6f4d25bbdeefe5b63.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/66D04048BCC26/11.4/1808713883831334_iPhone8,1_n71map_11.4-15F79_3fc3a68aaf7412025861f3622b3198f5010b07f1.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/674F1158BC8/11.4/7099330694088_iPhone8,1_n71ap_11.4-15F79_cb0069a2a1e622f62ace556407bb9ef716a8af0f.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/6754A5D94A8/11.4.1/7100828587176_iPhone8,1_n71ap_11.4.1-15G77_ed039a50d0eb1658db2c8c5763d7e9fb04853978.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/6754A5D94A8/11.4/7100828587176_iPhone8,1_n71ap_11.4-15F79_443caa8ba9179143642813437ee1b55a43a030cd.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/68DC85028A8/11.4.1/7206020851880_iPhone8,1_n71ap_11.4.1-15G77_3c141d65ba474a23fda3cd4d419186093373fef1.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/68DC85028A8/11.4/7206020851880_iPhone8,1_n71ap_11.4-15F79_d7e9152ba0afee50de42cea8b94d7adce7ad961e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/6B749AEE3C8/11.4/7384284980168_iPhone8,1_n71ap_11.4-15F79_63b36feae7b150e736c6d70298f8edf7a4cb4da1.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/735C8589968/11.4.1/7927575910760_iPhone8,1_n71ap_11.4.1-15G77_8d3cf9a25b14612b224ce785b436e83423a32683.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/735C8589968/11.4/7927575910760_iPhone8,1_n71ap_11.4-15F79_a700e1f9cf9b72dcf73310a6e6ed812f3b416c93.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/750C77C42C/11.4/502720349228_iPhone8,1_n71ap_11.4-15F79_86c6e1e7032907942edb0433da5fad8bcd676280.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/758DBBBC2C/11.4.1/504889064492_iPhone8,1_n71ap_11.4.1-15G77_5c28dc1fa2ef1f0b31ed133265574c30ce145e16.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/758DBBBC2C/11.4/504889064492_iPhone8,1_n71ap_11.4-15F79_d01219659de1a0eb847ac5b7a2f8cb9bacd1ca78.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/75ACAD63AC/11.4/505408218028_iPhone8,1_n71ap_11.4-15F79_700913af9cc1b0d3eb0ffa5d0bb690240cf425a3.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/776CA13FDA8/11.4.1/8206777843112_iPhone8,1_n71ap_11.4.1-15G77_50c05d01d47c9b3092e2ae7c08f45ce4d52919c8.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/776CA13FDA8/11.4/8206777843112_iPhone8,1_n71ap_11.4-15F79_c29c2bb4b2fc3eaac3b084a9a69caaf4162d1302.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/7B5083BE3C8/11.4/8474108617672_iPhone8,1_n71ap_11.4-15F79_db41198041f6b46d0ff55bbfa0eaf047ef980e32.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/7B7F3C38A68/11.4.1/8486650088040_iPhone8,1_n71ap_11.4.1-15G77_ed2bf7ab1ced2ba02ba5017008cd32a992798c8d.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/7B7F3C38A68/11.4/8486650088040_iPhone8,1_n71ap_11.4-15F79_a777654e89ba9d197fc93a96e0e04c8830e28cfb.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/7F42AABB0C8/11.4.1/8745269309640_iPhone8,1_n71ap_11.4.1-15G77_54a6feee87f83b31ec4e8e16d707667ab2b891c1.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/7F42AABB0C8/11.4/8745269309640_iPhone8,1_n71ap_11.4-15F79_ddfc6c72c75cbce03b2c776526f38e593e50a2cb.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/7F48A4F0268/11.4/8746873848424_iPhone8,1_n71ap_11.4-15F79_34988cfea51d0089f22774e72ae02af52d743eef.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/7F4AA7FA348/11.4.1/8747413906248_iPhone8,1_n71ap_11.4.1-15G77_9c6e29a3c35f7e63e202daafde817c825b12245a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/7F4AA7FA348/11.4/8747413906248_iPhone8,1_n71ap_11.4-15F79_db9838e0ab5764e72aa9bf5af27e16ccdd78f5ec.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/7F7285C9EC8/11.4.1/8758115475144_iPhone8,1_n71ap_11.4.1-15G77_9474ce3a81ac4d98a2efd973522b13e5c8b9347a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/7F7285C9EC8/11.4/8758115475144_iPhone8,1_n71ap_11.4-15F79_68837cf7c76d9d5de52caba07bfa8c26bfef82f6.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/8041E106A4426/11.4/2256326984614950_iPhone7,2_n61ap_11.4-15F79_87afde6193e4e64ba1d8785eae750a3a7097e786.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/804E9280BCC26/11.4/2257199259438118_iPhone8,1_n71map_11.4-15F79_16fa0d604ae9eab02ea4f711da7489bfa8d41641.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/814E2187BE426/11.4.1/2274761119622182_iPhone7,2_n61ap_11.4.1-15G77_468a2e2ecb959d5310d1b8fbeab2c9b42d137b87.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/814E2187BE426/11.4/2274761119622182_iPhone7,2_n61ap_11.4-15F79_545ed824cc549e34d2266cca526bff2888f40d61.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/8256E30401DBA/11.4/2292954999823802_iPhone8,1_n71map_11.4-15F79_c37092501d8c7c381e66f30113d4b9ae4437eb4b.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/828D12847AC26/11.4.1/2296678602746918_iPhone8,1_n71map_11.4.1-15G77_502919578e7ce6bc2ab365ec1653f9ea4f66890d.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/828D12847AC26/11.4/2296678602746918_iPhone8,1_n71map_11.4-15F79_edbb8b987563622a0d96aaea617ea52b72c2a940.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/875263051E026/11.4.1/2380606693564454_iPhone7,2_n61ap_11.4.1-15G77_7a3ecfd213f0699f3b5817f4d6e6ef6cc195e181.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/875263051E026/11.4/2380606693564454_iPhone7,2_n61ap_11.4-15F79_ee016e33df5dcfc8bbce77c55cc605d02631fa43.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/90C6E18382826/11.4/2546941782665254_iPhone7,2_n61ap_11.4-15F79_a95aa7a8f8e2e083c51f8b46ef46a68e03972d96.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/915D92839E826/11.4.1/2557297217366054_iPhone7,2_n61ap_11.4.1-15G77_3cb580310b1fe1d5d93f2c27b62752d310b03214.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/915D92839E826/11.4/2557297217366054_iPhone7,2_n61ap_11.4-15F79_10ce6a3a82a35f6a8eaebc5ec748d146a2f1fdb6.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/9185030DB8826/11.4/2560007486539814_iPhone7,2_n61ap_11.4-15F79_7308cbda4a249b303938f39b56e22bac40de2a2f.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/91D18087B6026/11.4/2565263849119782_iPhone7,2_n61ap_11.4-15F79_2853311125caf80c9297ed7f9a70d51549f65b85.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/9455120C26DBA/11.4/2609489534676410_iPhone7,2_n61ap_11.4-15F79_f65726b9b40b54611b52507c68ae0c7d2a15fb9a.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/94C1810381426/11.4.1/2616941025432614_iPhone7,2_n61ap_11.4.1-15G77_3798a8920205ed4224c23cec4c907919cf64717f.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/94C1810381426/11.4/2616941025432614_iPhone7,2_n61ap_11.4-15F79_b7067731c373c0564f150a499aba654f9f37804b.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/9589010F26026/11.4/2630650573250598_iPhone7,2_n61ap_11.4-15F79_b2f8cabb4f9e57981a15633ae89799debdade2ed.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/95C240044C426/11.4/2634584483480614_iPhone7,2_n61ap_11.4-15F79_fe758b469c8608a18de2b33b354b3ae4aa8c45f5.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/969E0182BEC26/11.4.1/2649685989518374_iPhone8,1_n71map_11.4.1-15G77_930de5c8f7952d3152686731f09ddf083d68ad6c.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/969E0182BEC26/11.4/2649685989518374_iPhone8,1_n71map_11.4-15F79_2db5cb317aa88d77b238054980de59afdfcb2792.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/A0CE220304826/11.4/2828915109283878_iPhone7,2_n61ap_11.4-15F79_17caa7888dde3602969ccf384545e0c99784ee8c.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/A119404BA0226/11.4/2834077199237670_iPhone7,2_n61ap_11.4-15F79_a21acd93a9338b2acba78813380dc3eb82310eed.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/A21C408D8EC26/11.4.1/2851875612847142_iPhone8,1_n71map_11.4.1-15G77_2f449ecc96c7e8b20af3908c04df016ec7c8d766.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/A21C408D8EC26/11.4/2851875612847142_iPhone8,1_n71map_11.4-15F79_8db5196d7a510fc6965a3302b70f15692618e02e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/A2C36082B4826/11.4.1/2863360344016934_iPhone7,2_n61ap_11.4.1-15G77_3455033ddaa2eb2bc1130d6a778d0edb26e70481.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/A2C36082B4826/11.4/2863360344016934_iPhone7,2_n61ap_11.4-15F79_6baf84d52693282990a9c9c6234127b6272e9567.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/A3526083A2826/11.4.1/2873187230165030_iPhone7,2_n61ap_11.4.1-15G77_154298533793ec11d324841b1923b5286bdc7c72.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/A3526083A2826/11.4/2873187230165030_iPhone7,2_n61ap_11.4-15F79_0e7f6782866fbf2a39c7e65fdd28c0ddc6d23e8b.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/A399E3046E026/11.4/2878101344673830_iPhone7,2_n61ap_11.4-15F79_eac370293e20eb8f925f6824a4592fd177c1f927.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/A3C4408322426/11.4/2881012660053030_iPhone7,2_n61ap_11.4-15F79_27b874c497e5692422dff48040498b9a8c2a14be.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/A54EA1009AC26/11.4.1/2908114035256358_iPhone8,1_n71map_11.4.1-15G77_ebb76a8d6788875ec5ced4371501e6505ca40a74.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/A54EA1009AC26/11.4/2908114035256358_iPhone8,1_n71map_11.4-15F79_4a1f8a36d6f6a31efb2660c914c530fa03223a97.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/A6D3C24BA8426/11.4.1/2934854848775206_iPhone7,2_n61ap_11.4.1-15G77_98c9889b8aea0d312a0f3d110e5e70465ae35183.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/A6D3C24BA8426/11.4/2934854848775206_iPhone7,2_n61ap_11.4-15F79_aef19df191c27939b560e8ccf1b14aba2bf05aed.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/B74F39902C/11.4.1/787308187692_iPhone8,1_n71ap_11.4.1-15G77_b9d760a305611f73179345a5a2e348f2ff7ba655.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/B74F39902C/11.4/787308187692_iPhone8,1_n71ap_11.4-15F79_14279b87c278da2122627cfa3ef8bf73c144cc87.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/B74F830AEC/11.4/787313003244_iPhone8,1_n71ap_11.4-15F79_48107f640530b0885de5887291be118983c12c4e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/C05241090AEBA/11.4/3383352175406778_iPhone7,2_n61ap_11.4-15F79_27b874c497e5692422dff48040498b9a8c2a14be.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/C2CAA10681826/11.4/3426808651847718_iPhone7,2_n61ap_11.4-15F79_b98d68de6e5dcac5ea601b262acef3b594de9a2e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/C31A41051E026/11.4.1/3432280438726694_iPhone7,2_n61ap_11.4.1-15G77_4fc2d3865198f58ba0352e8b4c261b7e2b1ea330.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/C31A41051E026/11.4/3432280438726694_iPhone7,2_n61ap_11.4-15F79_5b93c03d9234980c6e1fab63d76df2727a6383e2.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/C4866306BEC26/11.4.1/3457303456771110_iPhone8,1_n71map_11.4.1-15G77_9515782f6fbf44d7dc3f96f5e0b1a2223326e2bc.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/C4866306BEC26/11.4/3457303456771110_iPhone8,1_n71map_11.4-15F79_f04797f49993f9eeca3472b27bc73919835128cf.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/C59863023C3BA/11.4/3476132588667834_iPhone8,1_n71map_11.4-15F79_a0b18aed878441d9da5d13ed0c3f9860692e5911.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/C705024D28826/11.4/3501189237999654_iPhone7,2_n61ap_11.4-15F79_2c73b40093cf16bb6c8006a25398b730c7940cd2.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D048A00D91426/11.4.1/3664165463462950_iPhone7,2_n61ap_11.4.1-15G77_aa4213f51769d0a42c4e95b85fed240b77f88e03.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D048A00D91426/11.4/3664165463462950_iPhone7,2_n61ap_11.4-15F79_9c34dd117d1708a7968acfff84afb41577d44f86.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D0D1A28D2E426/11.4/3673580702458918_iPhone7,2_n61ap_11.4-15F79_9d8bd2cac824ccf67ebb393b0c103128ef7bf48e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D25A23886E026/11.4.1/3700553360531494_iPhone7,2_n61ap_11.4.1-15G77_213d875bd51ea4e15d4d4d30e1711b53c2855616.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D25A23886E026/11.4/3700553360531494_iPhone7,2_n61ap_11.4-15F79_7cd7e62496af8640c95dc38087b7f37f3bb4f159.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D28C210681826/11.4.1/3703988661262374_iPhone7,2_n61ap_11.4.1-15G77_7e9ec0064fdd8d8cf6b176f3cb75cda621090ed8.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D28C210681826/11.4/3703988661262374_iPhone7,2_n61ap_11.4-15F79_dfe685bb6b6e23536008314f0203daa4b94afd5e.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D2D5000476826/11.4/3708996322551846_iPhone7,2_n61ap_11.4-15F79_92b671f60cee2296b3b9a16d51bf22899f1e35f8.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D382908D2E426/11.4.1/3720923590091814_iPhone7,2_n61ap_11.4.1-15G77_d2375a4838945383b8271d369636e287945e0483.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D382908D2E426/11.4/3720923590091814_iPhone7,2_n61ap_11.4-15F79_7d9e60540f5331e2944fa7fa12f71c7e20578151.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D394810C3C3BA/11.4.1/3722156378932154_iPhone8,1_n71map_11.4.1-15G77_01315efab0fb5d8142dd46126b0728f5e7bee36b.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D394810C3C3BA/11.4/3722156378932154_iPhone8,1_n71map_11.4-15F79_be2138f7da6f6e3b70e5504e8e524dee0b9577f0.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D4520280BEC26/11.4/3735179110378534_iPhone8,1_n71map_11.4-15F79_c50b672feda0066d62268c526ef66fc3ae6097d5.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D58C2240B8226/11.4.1/3756765548872230_iPhone8,1_n71map_11.4.1-15G77_b8bfa985151c3cecaa3d0be85a09e34a0d808a9f.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D58C2240B8226/11.4/3756765548872230_iPhone8,1_n71map_11.4-15F79_b0caeb314bfb34945db2eaf7d23d7bcb9e5597cb.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/D74E410314426/11.4/3787697570268198_iPhone7,2_n61ap_11.4-15F79_50af043a950aa6d2322b994e20b973e0ff4e9406.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/E09E81046E026/11.4/3951541984092198_iPhone7,2_n61ap_11.4-15F79_1cf5868c855cc7ae9cfbe294a016fa3940e3a3a7.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/E0D4C100A2C26/11.4.1/3955270011726886_iPhone8,1_n71map_11.4.1-15G77_d95f3ca094e55f57d165fb90e8c56569ef424b36.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/E0D4C100A2C26/11.4/3955270011726886_iPhone8,1_n71map_11.4-15F79_a6df7a65d8ae4f53665f10a86b211e77a434dff3.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/E1454303B0226/11.4.1/3963001492931110_iPhone8,1_n71map_11.4.1-15G77_7e619dc57b102522dde47b3b10b99e2f6c133423.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/E1454303B0226/11.4/3963001492931110_iPhone8,1_n71map_11.4-15F79_d58d4a04db0506547dc95b8dce2438f4936f08e5.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/E308100F14426/11.4/3993980298675238_iPhone7,2_n61ap_11.4-15F79_d0c45c3931e6f2a09917e8f38535244b0ec68411.shsh2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/shsh2/E34660445A426/11.4/3998262436930598_iPhone7,2_n61ap_11.4-15F79_290b385d8469261b8759c7170e47e6ee309f0539.shsh2" />
+      <change beforePath="$PROJECT_DIR$/.idea/DeviceX.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeviceX.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d9c815ac-0b29-41ac-a12c-77e37e08a7b7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d9c815ac-0b29-41ac-a12c-77e37e08a7b7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d9c815ac-0b29-41ac-a12c-77e37e08a7b7/_metadata_/metadata" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d9c815ac-0b29-41ac-a12c-77e37e08a7b7/_metadata_/metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d9c815ac-0b29-41ac-a12c-77e37e08a7b7/_metadata_/metadata.len" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d9c815ac-0b29-41ac-a12c-77e37e08a7b7/_metadata_/metadata.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d9c815ac-0b29-41ac-a12c-77e37e08a7b7/_metadata_/metadata_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata.len" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata_i" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata_i.len" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f47a2723-be51-4bf8-9c69-528359909f63/_metadata_/metadata_i.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DeviceX/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/DeviceX/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetaManagement/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/MetaManagement/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetaManagement/locale/en/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/MetaManagement/locale/en/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetaManagement/locale/en/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/MetaManagement/locale/en/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetaManagement/locale/zh_Hans/LC_MESSAGES/django.mo" beforeDir="false" afterPath="$PROJECT_DIR$/MetaManagement/locale/zh_Hans/LC_MESSAGES/django.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetaManagement/locale/zh_Hans/LC_MESSAGES/django.po" beforeDir="false" afterPath="$PROJECT_DIR$/MetaManagement/locale/zh_Hans/LC_MESSAGES/django.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetaManagement/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/MetaManagement/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MetaManagement/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/MetaManagement/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_rq/templates/django_rq/clear_queue.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/clear_queue.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_rq/templates/django_rq/confirm_action.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/confirm_action.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_rq/templates/django_rq/delete_job.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/delete_job.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_rq/templates/django_rq/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_rq/templates/django_rq/job_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/job_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_rq/templates/django_rq/jobs.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/jobs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_rq/templates/django_rq/requeue_all.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/requeue_all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_rq/templates/django_rq/stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_rq/templates/django_rq/stats.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -484,12 +52,24 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="DeviceX" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MetaManagement/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -508,6 +88,19 @@
       <find>request.POST</find>
       <find>_(</find>
       <find>result_dict</find>
+      <find>重新开始</find>
+      <find>fuzz</find>
+      <find>Created</find>
+      <find>fuzzy</find>
+      <find>Delete</find>
+      <find>RQ Queues</find>
+      <find>RQ Qu</find>
+      <find>Queues</find>
+      <find>RQ</find>
+      <find>Requeue</find>
+      <find>name</find>
+      <find>url(</find>
+      <find>Fetched</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -516,16 +109,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MetaManagement/models.py" />
         <option value="$PROJECT_DIR$/MetaManagement/eror.py" />
         <option value="$PROJECT_DIR$/locale/zh_Hans/LC_MESSAGES/django.po" />
         <option value="$PROJECT_DIR$/MetaManagement/apps.py" />
-        <option value="$PROJECT_DIR$/MetaManagement/admin.py" />
-        <option value="$PROJECT_DIR$/DeviceX/urls.py" />
         <option value="$PROJECT_DIR$/DeviceX/settings.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/django_rq/templates/django_rq/index.html" />
+        <option value="$PROJECT_DIR$/django_rq/templates/django_rq/job_detail.html" />
+        <option value="$PROJECT_DIR$/django_rq/templates/django_rq/jobs.html" />
+        <option value="$PROJECT_DIR$/django_rq/templates/django_rq/requeue_all.html" />
+        <option value="$PROJECT_DIR$/django_rq/templates/django_rq/delete_job.html" />
+        <option value="$PROJECT_DIR$/django_rq/templates/django_rq/confirm_action.html" />
+        <option value="$PROJECT_DIR$/django_rq/templates/django_rq/clear_queue.html" />
+        <option value="$PROJECT_DIR$/django_rq/templates/django_rq/stats.html" />
         <option value="$PROJECT_DIR$/MetaManagement/locale/zh_Hans/LC_MESSAGES/django.po" />
         <option value="$PROJECT_DIR$/MetaManagement/views.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/DeviceX/urls.py" />
+        <option value="$PROJECT_DIR$/MetaManagement/admin.py" />
+        <option value="$PROJECT_DIR$/MetaManagement/models.py" />
       </list>
     </option>
   </component>
@@ -535,61 +136,50 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeviceX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeviceX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeviceX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeviceX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DeviceX" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="DeviceX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeviceX" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeviceX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeviceX" type="462c0819:PsiDirectoryNode" />
+              <item name="DeviceX" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeviceX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeviceX" type="462c0819:PsiDirectoryNode" />
+              <item name="django_rq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeviceX" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeviceX" type="462c0819:PsiDirectoryNode" />
+              <item name="MetaManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -608,180 +198,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.DeviceX">
-    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
+  <component name="RunManager">
+    <configuration name="DeviceX" type="Python.DjangoServer" factoryName="Django server">
       <module name="DeviceX" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DeviceX" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DeviceX" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DeviceX" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DeviceX" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="DeviceX" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DeviceX" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DeviceX" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;.&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DeviceX" type="Python.DjangoServer" factoryName="Django server">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -793,7 +212,6 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DeviceX" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="" />
@@ -803,14 +221,33 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
-      <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Django server.DeviceX" />
-    </list>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <module name="DeviceX" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -833,108 +270,85 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27549824" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23958333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39976552" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17570755" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900944" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23958333" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39976415" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32942554" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MetaManagement/views.py">
+    <entry file="file://$PROJECT_DIR$/MetaManagement/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="405">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MetaManagement/models.py">
+    <entry file="file://$PROJECT_DIR$/MetaManagement/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaManagement/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaManagement/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2017.1/python_stubs/181281484/posix.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="181">
-          <caret line="535" column="4" lean-forward="false" selection-start-line="535" selection-start-column="4" selection-end-line="535" selection-end-column="4" />
-          <folding />
+          <caret line="535" column="4" selection-start-line="535" selection-start-column="4" selection-end-line="535" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file:///usr/local/Cellar/python/2.7.14/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/db/models/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-446">
-          <caret line="717" column="8" lean-forward="false" selection-start-line="717" selection-start-column="8" selection-end-line="717" selection-end-column="8" />
-          <folding />
+          <caret line="717" column="8" selection-start-line="717" selection-start-column="8" selection-end-line="717" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MetaManagement/error.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="28" lean-forward="false" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MetaManagement/locale/en/LC_MESSAGES/django.po">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1136">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MetaManagement/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeviceX/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding>
-            <element signature="e#641#673#0" expanded="true" />
-          </folding>
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -942,57 +356,188 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1641">
           <caret line="143" column="15" lean-forward="true" selection-start-line="143" selection-start-column="15" selection-end-line="143" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MetaManagement/admin.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f47a2723-be51-4bf8-9c69-528359909f63/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaManagement/locale/en/LC_MESSAGES/django.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5102" />
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/2.7.14/Frameworks/Python.framework/Versions/2.7/lib/python2.7/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/2.7.14/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/db/models/fields/files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_rq/test_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_rq/templates/django_rq/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="51" />
+          <folding>
+            <element signature="e#197#217#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_rq/templates/django_rq/job_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="64" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_rq/templates/django_rq/jobs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_rq/templates/django_rq/requeue_all.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_rq/templates/django_rq/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_rq/templates/django_rq/delete_job.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_rq/templates/django_rq/confirm_action.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_rq/templates/django_rq/clear_queue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_rq/templates/django_rq/stats.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-738">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/2.7.14/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/django/conf/urls/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="76" column="8" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_rq/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_rq/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MetaManagement/locale/zh_Hans/LC_MESSAGES/django.po">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="123" column="51" lean-forward="true" selection-start-line="123" selection-start-column="51" selection-end-line="123" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MetaManagement/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f47a2723-be51-4bf8-9c69-528359909f63/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="137">
+          <caret line="152" column="16" lean-forward="true" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MetaManagement/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+        <state relative-caret-position="134">
+          <caret line="132" column="23" lean-forward="true" selection-start-line="132" selection-start-column="23" selection-end-line="132" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django_rq/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-147">
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/MetaManagement/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeviceX/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="e#641#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaManagement/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MetaManagement/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-10 16:52+0800\n"
+"POT-Creation-Date: 2018-07-11 15:30+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,104 +17,155 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: MetaManagement/admin.py:7 MetaManagement/admin.py:8 MetaManagement/apps.py:9
+#: MetaManagement/admin.py:9 MetaManagement/admin.py:10
+#: MetaManagement/apps.py:9
 msgid "MetaManagement"
 msgstr ""
 
-#: MetaManagement/models.py:11
-msgid "Meta"
+#: MetaManagement/admin.py:51
+#, python-format
+msgid "%s signing task has been added to the \"high\" queue."
 msgstr ""
 
 #: MetaManagement/models.py:12
+msgid "Meta"
+msgstr ""
+
+#: MetaManagement/models.py:13
 msgid "Metas"
 msgstr ""
 
-#: MetaManagement/models.py:16
+#: MetaManagement/models.py:17
 msgid "ECID"
 msgstr ""
 
-#: MetaManagement/models.py:24 MetaManagement/models.py:80
+#: MetaManagement/models.py:25
+msgid "Enter a valid 'ECID' consisting of hex letters and numbers."
+msgstr ""
+
+#: MetaManagement/models.py:32 MetaManagement/models.py:123
 #: django_rq/templates/django_rq/job_detail.html:51
+#: django_rq/templates/django_rq/jobs.html:70
 msgid "Created At"
 msgstr ""
 
-#: MetaManagement/models.py:29 django_rq/templates/django_rq/stats.html:23
+#: MetaManagement/models.py:37 django_rq/templates/django_rq/stats.html:23
 msgid "Name"
 msgstr ""
 
-#: MetaManagement/models.py:35
+#: MetaManagement/models.py:43
 msgid "HW Model"
 msgstr ""
 
-#: MetaManagement/models.py:38
+#: MetaManagement/models.py:46
 msgid "Example: n90ap"
 msgstr ""
 
-#: MetaManagement/models.py:42
+#: MetaManagement/models.py:50
+msgid "Enter a valid 'HW Model' consisting of letters and numbers."
+msgstr ""
+
+#: MetaManagement/models.py:57
 msgid "Product Type"
 msgstr ""
 
-#: MetaManagement/models.py:45
+#: MetaManagement/models.py:60
 msgid "Example: iPhone10,3"
 msgstr ""
 
-#: MetaManagement/models.py:49
+#: MetaManagement/models.py:64
+msgid "Enter a valid 'Product Type' consisting of letters, numbers and commas."
+msgstr ""
+
+#: MetaManagement/models.py:71
 msgid "iOS Version"
 msgstr ""
 
-#: MetaManagement/models.py:52 MetaManagement/models.py:93
+#: MetaManagement/models.py:74 MetaManagement/models.py:136
 msgid "Example: 11.4"
 msgstr ""
 
-#: MetaManagement/models.py:56
+#: MetaManagement/models.py:78
+msgid "Enter a valid 'iOS Version' consisting of letters, numbers and dots."
+msgstr ""
+
+#: MetaManagement/models.py:85
 msgid "iOS Build"
 msgstr ""
 
-#: MetaManagement/models.py:60 MetaManagement/models.py:101
+#: MetaManagement/models.py:89 MetaManagement/models.py:151
 msgid "Example: 15F5061e"
 msgstr ""
 
-#: MetaManagement/models.py:64
+#: MetaManagement/models.py:93
+msgid "Enter a valid 'iOS Build' consisting of letters and numbers."
+msgstr ""
+
+#: MetaManagement/models.py:100
 msgid "Generator"
 msgstr ""
 
-#: MetaManagement/models.py:75
+#: MetaManagement/models.py:106
+msgid "Enter a valid 'Generator' consisting of hex letters and numbers."
+msgstr ""
+
+#: MetaManagement/models.py:118
 msgid "Signature"
 msgstr ""
 
-#: MetaManagement/models.py:76
+#: MetaManagement/models.py:119
 msgid "Signatures"
 msgstr ""
 
-#: MetaManagement/models.py:86
+#: MetaManagement/models.py:129
 msgid "Device"
 msgstr ""
 
-#: MetaManagement/models.py:90
+#: MetaManagement/models.py:133
 msgid "Blob Version"
 msgstr ""
 
-#: MetaManagement/models.py:97
+#: MetaManagement/models.py:140
+msgid "Enter a valid 'Blob Version' consisting of letters, numbers and dots."
+msgstr ""
+
+#: MetaManagement/models.py:147
 msgid "Blob Build"
 msgstr ""
 
-#: MetaManagement/models.py:105
+#: MetaManagement/models.py:155
+msgid "Enter a valid 'Blob Build' consisting of letters and numbers."
+msgstr ""
+
+#: MetaManagement/models.py:162
 msgid "Blob Nonce"
 msgstr ""
 
-#: MetaManagement/models.py:112
+#: MetaManagement/models.py:169
+msgid "Enter a valid 'Blob Nonce' consisting of hex letters and numbers."
+msgstr ""
+
+#: MetaManagement/models.py:176
+msgid "OTA Ticket"
+msgstr ""
+
+#: MetaManagement/models.py:181
 msgid "Blob File"
 msgstr ""
 
-#: MetaManagement/models.py:115
+#: MetaManagement/models.py:184
 msgid "Choose a Blob File (*.shsh2) to upload"
 msgstr ""
 
-#: MetaManagement/views.py:178
+#: MetaManagement/models.py:190
+msgid "Blob Fetched"
+msgstr ""
+
+#: MetaManagement/views.py:198
 msgid "No such job"
 msgstr ""
 
-#: MetaManagement/views.py:197
+#: MetaManagement/views.py:217
 msgid "Task submitted, proceeding..."
 msgstr ""
 
@@ -135,8 +186,9 @@ msgstr ""
 #: django_rq/templates/django_rq/job_detail.html:22
 #: django_rq/templates/django_rq/jobs.html:28
 #: django_rq/templates/django_rq/requeue_all.html:20
-#: django_rq/templates/django_rq/stats.html:10 django_rq/views.py:61
-msgid "Django RQ"
+#: django_rq/templates/django_rq/stats.html:5
+#: django_rq/templates/django_rq/stats.html:10
+msgid "RQ Signing Queue"
 msgstr ""
 
 #: django_rq/templates/django_rq/clear_queue.html:26
@@ -200,6 +252,7 @@ msgid "Result TTL"
 msgstr ""
 
 #: django_rq/templates/django_rq/job_detail.html:55
+#: django_rq/templates/django_rq/jobs.html:71
 msgid "Enqueued At"
 msgstr ""
 
@@ -229,6 +282,16 @@ msgstr ""
 msgid "Result"
 msgstr ""
 
+#: django_rq/templates/django_rq/job_detail.html:106
+#: django_rq/templates/django_rq/jobs.html:51
+msgid "Delete"
+msgstr ""
+
+#: django_rq/templates/django_rq/job_detail.html:110
+#: django_rq/templates/django_rq/jobs.html:53
+msgid "Requeue"
+msgstr ""
+
 #: django_rq/templates/django_rq/jobs.html:33
 #, python-format
 msgid "%(job_status)s jobs in %(queue_name)s"
@@ -246,24 +309,8 @@ msgstr ""
 msgid "Actions:"
 msgstr ""
 
-#: django_rq/templates/django_rq/jobs.html:51
-msgid "Delete"
-msgstr ""
-
-#: django_rq/templates/django_rq/jobs.html:53
-msgid "Requeue"
-msgstr ""
-
 #: django_rq/templates/django_rq/jobs.html:57
 msgid "Go"
-msgstr ""
-
-#: django_rq/templates/django_rq/jobs.html:70
-msgid "Created"
-msgstr ""
-
-#: django_rq/templates/django_rq/jobs.html:71
-msgid "Enqueued"
 msgstr ""
 
 #: django_rq/templates/django_rq/jobs.html:106
@@ -309,6 +356,10 @@ msgstr ""
 
 #: django_rq/templates/django_rq/stats.html:31
 msgid "DB"
+msgstr ""
+
+#: django_rq/views.py:61
+msgid "Django RQ"
 msgstr ""
 
 #: django_rq/views.py:87

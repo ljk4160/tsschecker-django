@@ -2,13 +2,11 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-07-10 16:52+0800\n"
+"POT-Creation-Date: 2018-07-11 15:30+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,106 +16,157 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: MetaManagement/admin.py:7 MetaManagement/admin.py:8 MetaManagement/apps.py:9
+#: MetaManagement/admin.py:9 MetaManagement/admin.py:10
+#: MetaManagement/apps.py:9
 msgid "MetaManagement"
 msgstr "固件签名"
 
-#: MetaManagement/models.py:11
+#: MetaManagement/admin.py:51
+#, python-format
+msgid "%s signing task has been added to the \"high\" queue."
+msgstr "%s 签名任务已被添加到 \"high\" 队列。"
+
+#: MetaManagement/models.py:12
 msgid "Meta"
 msgstr "设备"
 
-#: MetaManagement/models.py:12
+#: MetaManagement/models.py:13
 msgid "Metas"
 msgstr "设备"
 
-#: MetaManagement/models.py:16
+#: MetaManagement/models.py:17
 msgid "ECID"
 msgstr "ECID"
 
-#: MetaManagement/models.py:24 MetaManagement/models.py:80
+#: MetaManagement/models.py:25
+msgid "Enter a valid 'ECID' consisting of hex letters and numbers."
+msgstr ""
+
+#: MetaManagement/models.py:32 MetaManagement/models.py:123
 #: django_rq/templates/django_rq/job_detail.html:51
+#: django_rq/templates/django_rq/jobs.html:70
 msgid "Created At"
 msgstr "创建于"
 
-#: MetaManagement/models.py:29 django_rq/templates/django_rq/stats.html:23
+#: MetaManagement/models.py:37 django_rq/templates/django_rq/stats.html:23
 msgid "Name"
 msgstr "名称"
 
-#: MetaManagement/models.py:35
+#: MetaManagement/models.py:43
 msgid "HW Model"
 msgstr "平台"
 
-#: MetaManagement/models.py:38
+#: MetaManagement/models.py:46
 msgid "Example: n90ap"
 msgstr "例: n90ap"
 
-#: MetaManagement/models.py:42
+#: MetaManagement/models.py:50
+msgid "Enter a valid 'HW Model' consisting of letters and numbers."
+msgstr ""
+
+#: MetaManagement/models.py:57
 msgid "Product Type"
 msgstr "型号"
 
-#: MetaManagement/models.py:45
+#: MetaManagement/models.py:60
 msgid "Example: iPhone10,3"
 msgstr "例: iPhone10,3"
 
-#: MetaManagement/models.py:49
+#: MetaManagement/models.py:64
+msgid "Enter a valid 'Product Type' consisting of letters, numbers and commas."
+msgstr ""
+
+#: MetaManagement/models.py:71
 msgid "iOS Version"
 msgstr "iOS 版本"
 
-#: MetaManagement/models.py:52 MetaManagement/models.py:93
+#: MetaManagement/models.py:74 MetaManagement/models.py:136
 msgid "Example: 11.4"
 msgstr "例: 11.4"
 
-#: MetaManagement/models.py:56
+#: MetaManagement/models.py:78
+msgid "Enter a valid 'iOS Version' consisting of letters, numbers and dots."
+msgstr ""
+
+#: MetaManagement/models.py:85
 msgid "iOS Build"
 msgstr "iOS 构建版本"
 
-#: MetaManagement/models.py:60 MetaManagement/models.py:101
+#: MetaManagement/models.py:89 MetaManagement/models.py:151
 msgid "Example: 15F5061e"
 msgstr "例: 15F5061e"
 
-#: MetaManagement/models.py:64
+#: MetaManagement/models.py:93
+msgid "Enter a valid 'iOS Build' consisting of letters and numbers."
+msgstr ""
+
+#: MetaManagement/models.py:100
 msgid "Generator"
 msgstr "随机数种子"
 
-#: MetaManagement/models.py:75
+#: MetaManagement/models.py:106
+msgid "Enter a valid 'Generator' consisting of hex letters and numbers."
+msgstr ""
+
+#: MetaManagement/models.py:118
 msgid "Signature"
 msgstr "签名"
 
-#: MetaManagement/models.py:76
+#: MetaManagement/models.py:119
 msgid "Signatures"
 msgstr "签名"
 
-#: MetaManagement/models.py:86
+#: MetaManagement/models.py:129
 msgid "Device"
 msgstr "设备"
 
-#: MetaManagement/models.py:90
+#: MetaManagement/models.py:133
 msgid "Blob Version"
 msgstr "Blob 版本"
 
-#: MetaManagement/models.py:97
+#: MetaManagement/models.py:140
+msgid "Enter a valid 'Blob Version' consisting of letters, numbers and dots."
+msgstr ""
+
+#: MetaManagement/models.py:147
 msgid "Blob Build"
 msgstr "Blob 构建号"
 
-#: MetaManagement/models.py:105
+#: MetaManagement/models.py:155
+msgid "Enter a valid 'Blob Build' consisting of letters and numbers."
+msgstr ""
+
+#: MetaManagement/models.py:162
 msgid "Blob Nonce"
 msgstr "Blob 随机数"
 
-#: MetaManagement/models.py:112
+#: MetaManagement/models.py:169
+msgid "Enter a valid 'Blob Nonce' consisting of hex letters and numbers."
+msgstr ""
+
+#: MetaManagement/models.py:176
+msgid "OTA Ticket"
+msgstr ""
+
+#: MetaManagement/models.py:181
 msgid "Blob File"
 msgstr "Blob 文件"
 
-#: MetaManagement/models.py:115
+#: MetaManagement/models.py:184
 msgid "Choose a Blob File (*.shsh2) to upload"
 msgstr "选择一个 Blob 文件 (*.shsh2) 以上传"
 
-#: MetaManagement/views.py:178
-msgid "No such job"
-msgstr ""
+#: MetaManagement/models.py:190
+msgid "Blob Fetched"
+msgstr "Blob 已获取"
 
-#: MetaManagement/views.py:197
+#: MetaManagement/views.py:198
+msgid "No such job"
+msgstr "找不到此任务"
+
+#: MetaManagement/views.py:217
 msgid "Task submitted, proceeding..."
-msgstr ""
+msgstr "任务已提交，处理中……"
 
 #: django_rq/templates/django_rq/clear_queue.html:19
 #: django_rq/templates/django_rq/confirm_action.html:19
@@ -127,7 +176,7 @@ msgstr ""
 #: django_rq/templates/django_rq/requeue_all.html:19
 #: django_rq/templates/django_rq/stats.html:9
 msgid "Home"
-msgstr ""
+msgstr "首页"
 
 #: django_rq/templates/django_rq/clear_queue.html:20
 #: django_rq/templates/django_rq/confirm_action.html:20
@@ -136,16 +185,17 @@ msgstr ""
 #: django_rq/templates/django_rq/job_detail.html:22
 #: django_rq/templates/django_rq/jobs.html:28
 #: django_rq/templates/django_rq/requeue_all.html:20
-#: django_rq/templates/django_rq/stats.html:10 django_rq/views.py:61
-msgid "Django RQ"
-msgstr ""
+#: django_rq/templates/django_rq/stats.html:5
+#: django_rq/templates/django_rq/stats.html:10
+msgid "RQ Signing Queue"
+msgstr "RQ 签名队列"
 
 #: django_rq/templates/django_rq/clear_queue.html:26
 #: django_rq/templates/django_rq/confirm_action.html:26
 #: django_rq/templates/django_rq/delete_job.html:27
 #: django_rq/templates/django_rq/requeue_all.html:26
 msgid "Are you sure?"
-msgstr ""
+msgstr "你确定吗？"
 
 #: django_rq/templates/django_rq/clear_queue.html:32
 #, python-format
@@ -153,13 +203,15 @@ msgid ""
 "Are you sure you want to clear the queue %(queue_name)s?\n"
 "        This action can not be undone."
 msgstr ""
+"你确定要清除队列 %(queue_name)s？\n"
+"        该操作无法被撤销。"
 
 #: django_rq/templates/django_rq/clear_queue.html:38
 #: django_rq/templates/django_rq/confirm_action.html:46
 #: django_rq/templates/django_rq/delete_job.html:39
 #: django_rq/templates/django_rq/requeue_all.html:38
 msgid "Yes, I'm sure"
-msgstr ""
+msgstr "是的，我确定"
 
 #: django_rq/templates/django_rq/confirm_action.html:32
 #, python-format
@@ -167,6 +219,8 @@ msgid ""
 "Are you sure you want to <b>%(cap_action)s</b> the selected jobs from "
 "%(queue.name)s? These jobs are selected:"
 msgstr ""
+"你确定要从队列 %(queue.name)s 中 <b>%(cap_action)s</b> 所选中的任务吗？选中的"
+"任务有："
 
 #: django_rq/templates/django_rq/delete_job.html:33
 #, python-format
@@ -174,107 +228,100 @@ msgid ""
 "Are you sure you want to delete %(job_id)s from %(queue_name)s?\n"
 "        This action can not be undone."
 msgstr ""
+"你确定要从队列 %(queue_name)s 中删除任务 %(job_id)s 吗？\n"
+"        该操作无法被撤销。"
 
 #: django_rq/templates/django_rq/index.html:18
 msgid "Queues"
-msgstr ""
+msgstr "队列"
 
 #: django_rq/templates/django_rq/job_detail.html:28
 msgid "Job Info"
-msgstr ""
+msgstr "任务信息"
 
 #: django_rq/templates/django_rq/job_detail.html:35
 #: django_rq/templates/django_rq/jobs.html:69
-#, fuzzy
-#| msgid "ECID"
 msgid "ID"
-msgstr "ECID"
+msgstr "ID"
 
 #: django_rq/templates/django_rq/job_detail.html:39
 msgid "Queue"
-msgstr ""
+msgstr "队列"
 
 #: django_rq/templates/django_rq/job_detail.html:43
 msgid "Timeout"
-msgstr ""
+msgstr "超时时间"
 
 #: django_rq/templates/django_rq/job_detail.html:47
 msgid "Result TTL"
-msgstr ""
+msgstr "返回值存活时间"
 
 #: django_rq/templates/django_rq/job_detail.html:55
+#: django_rq/templates/django_rq/jobs.html:71
 msgid "Enqueued At"
-msgstr ""
+msgstr "添加于"
 
 #: django_rq/templates/django_rq/job_detail.html:59
 #: django_rq/templates/django_rq/jobs.html:72
 msgid "Status"
-msgstr ""
+msgstr "状态"
 
 #: django_rq/templates/django_rq/job_detail.html:63
 #: django_rq/templates/django_rq/jobs.html:73
 msgid "Callable"
-msgstr ""
+msgstr "调用方"
 
 #: django_rq/templates/django_rq/job_detail.html:67
 msgid "Args"
-msgstr ""
+msgstr "参数"
 
 #: django_rq/templates/django_rq/job_detail.html:81
 msgid "Kwargs"
-msgstr ""
+msgstr "可变参数"
 
 #: django_rq/templates/django_rq/job_detail.html:95
 msgid "Exception"
-msgstr ""
+msgstr "异常"
 
 #: django_rq/templates/django_rq/job_detail.html:101
 msgid "Result"
-msgstr ""
+msgstr "返回值"
+
+#: django_rq/templates/django_rq/job_detail.html:106
+#: django_rq/templates/django_rq/jobs.html:51
+msgid "Delete"
+msgstr "删除"
+
+#: django_rq/templates/django_rq/job_detail.html:110
+#: django_rq/templates/django_rq/jobs.html:53
+msgid "Requeue"
+msgstr "重置"
 
 #: django_rq/templates/django_rq/jobs.html:33
 #, python-format
 msgid "%(job_status)s jobs in %(queue_name)s"
-msgstr ""
+msgstr "队列 %(queue_name)s 中 %(job_status)s 的任务"
 
 #: django_rq/templates/django_rq/jobs.html:40 django_rq/views.py:326
 msgid "Requeue All"
-msgstr ""
+msgstr "重置所有任务"
 
 #: django_rq/templates/django_rq/jobs.html:42
 msgid "Empty Queue"
-msgstr ""
+msgstr "清空队列"
 
 #: django_rq/templates/django_rq/jobs.html:48
 msgid "Actions:"
-msgstr ""
-
-#: django_rq/templates/django_rq/jobs.html:51
-msgid "Delete"
-msgstr ""
-
-#: django_rq/templates/django_rq/jobs.html:53
-msgid "Requeue"
-msgstr ""
+msgstr "操作："
 
 #: django_rq/templates/django_rq/jobs.html:57
 msgid "Go"
-msgstr ""
-
-#: django_rq/templates/django_rq/jobs.html:70
-#, fuzzy
-#| msgid "Created At"
-msgid "Created"
-msgstr "创建于"
-
-#: django_rq/templates/django_rq/jobs.html:71
-msgid "Enqueued"
-msgstr ""
+msgstr "开始"
 
 #: django_rq/templates/django_rq/jobs.html:106
 #, python-format
 msgid "%(num_jobs)s jobs"
-msgstr ""
+msgstr "%(num_jobs)s 个任务"
 
 #: django_rq/templates/django_rq/requeue_all.html:32
 #, python-format
@@ -283,112 +330,118 @@ msgid ""
 "%(queue_name)s?\n"
 "        This action can not be undone."
 msgstr ""
+"你确定要重置所有队列 %(queue_name)s 中的 %(t_job)s%(t_jobs)s 个任务"
+"吗？        该操作无法被撤销。"
 
 #: django_rq/templates/django_rq/stats.html:24
 msgid "Queued Jobs"
-msgstr ""
+msgstr "等待中的任务"
 
 #: django_rq/templates/django_rq/stats.html:25
 msgid "Active Jobs"
-msgstr ""
+msgstr "执行中的任务"
 
 #: django_rq/templates/django_rq/stats.html:26 django_rq/views.py:210
 msgid "Deferred Jobs"
-msgstr ""
+msgstr "延迟执行的任务"
 
 #: django_rq/templates/django_rq/stats.html:27 django_rq/views.py:128
 msgid "Finished Jobs"
-msgstr ""
+msgstr "已完成的任务"
 
 #: django_rq/templates/django_rq/stats.html:28
 msgid "Number of Workers"
-msgstr ""
+msgstr "工作进程数量"
 
 #: django_rq/templates/django_rq/stats.html:29
 msgid "Host"
-msgstr ""
+msgstr "主机名"
 
 #: django_rq/templates/django_rq/stats.html:30
 msgid "Port"
-msgstr ""
+msgstr "端口号"
 
 #: django_rq/templates/django_rq/stats.html:31
 msgid "DB"
-msgstr ""
+msgstr "数据库"
+
+#: django_rq/views.py:61
+msgid "Django RQ"
+msgstr "Django RQ"
 
 #: django_rq/views.py:87
 msgid "Jobs"
-msgstr ""
+msgstr "任务"
 
 #: django_rq/views.py:94
 msgid "Queued"
-msgstr ""
+msgstr "等待中"
 
 #: django_rq/views.py:135
 msgid "Finished"
-msgstr ""
+msgstr "已完成"
 
 #: django_rq/views.py:169
 msgid "Started Jobs"
-msgstr ""
+msgstr "已启动的任务"
 
 #: django_rq/views.py:176
 msgid "Started"
-msgstr ""
+msgstr "已启动"
 
 #: django_rq/views.py:217
 msgid "Deferred"
-msgstr ""
+msgstr "已延迟"
 
 #: django_rq/views.py:229
 #, python-format
 msgid "Couldn't find job with this ID: %s"
-msgstr ""
+msgstr "找不到 ID 为 %s 的任务"
 
 #: django_rq/views.py:233
 msgid "Job Detail"
-msgstr ""
+msgstr "任务详情"
 
 #: django_rq/views.py:251
 #, python-format
 msgid "You have successfully deleted %s"
-msgstr ""
+msgstr "你成功地删除了 %s"
 
 #: django_rq/views.py:256
 msgid "Delete Job"
-msgstr ""
+msgstr "删除任务"
 
 #: django_rq/views.py:272
 #, python-format
 msgid "You have successfully requeued %s"
-msgstr ""
+msgstr "你成功地将队列 %s 重置"
 
 #: django_rq/views.py:291
 #, python-format
 msgid "You have successfully cleared the queue %s"
-msgstr ""
+msgstr "你成功地清除了队列 %s"
 
 #: django_rq/views.py:295
 msgid ""
 "This action is not supported on Redis versions < 2.6.0, please use the bulk "
 "delete command instead"
-msgstr ""
+msgstr "该操作不支持 Redis 版本 < 2.6.0，请使用批量删除指令替代"
 
 #: django_rq/views.py:303
 msgid "Clear Queue"
-msgstr ""
+msgstr "清空队列"
 
 #: django_rq/views.py:321
 #, python-format
 msgid "You have successfully requeued all %d jobs!"
-msgstr ""
+msgstr "你成功地重置了所有 %d 个任务！"
 
 #: django_rq/views.py:360
 #, python-format
 msgid "You have successfully deleted %s jobs!"
-msgstr ""
+msgstr "你成功地删除了 %s 个任务！"
 
 #: django_rq/views.py:364
 #, python-format
 msgid "You have successfully requeued %d jobs!"
-msgstr ""
+msgstr "你成功地重置了 %d 个任务！"

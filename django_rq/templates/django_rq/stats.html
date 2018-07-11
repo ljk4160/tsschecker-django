@@ -2,12 +2,12 @@
 
 {% load i18n %}
 
-{% block content_title %}<h1>RQ Queues</h1>{% endblock %}
+{% block content_title %}<h1>{% trans 'RQ Signing Queue' %}</h1>{% endblock %}
 
 {% block breadcrumbs %}
     <div class="breadcrumbs">
         <a href="{% url 'admin:index' %}">{% trans 'Home' %}</a> &rsaquo;
-        {% trans 'Django RQ' %}
+        {% trans 'RQ Signing Queue' %}
     </div>
 {% endblock %}
 

@@ -16,7 +16,7 @@ from MetaManagement.models import Device, Signature
 from django_rq import queues
 
 
-def handle_signing_task(request_dict):
+def handle_signing_task(request_dict, throw_exception):
 
     def tsschecker(ecid, product_type, hw_model, ios_version, ios_build, ap_nonce, is_ota):
         cmd = 'tsschecker'
@@ -71,6 +71,8 @@ def handle_signing_task(request_dict):
                 'status': 400,
                 'msg': "error: field '%s' is missing" % field
             })
+            if throw_exception:
+                raise RuntimeError(json.dumps(result_dict, indent=4, sort_keys=True))
             return result_dict
 
     ecid = request_dict['ecid']
@@ -80,6 +82,8 @@ def handle_signing_task(request_dict):
             'status': 404,
             'msg': "error: device '%s' not found" % ecid
         })
+        if throw_exception:
+            raise RuntimeError(json.dumps(result_dict, indent=4, sort_keys=True))
         return result_dict
 
     product_type = p_device.product_type
@@ -94,14 +98,22 @@ def handle_signing_task(request_dict):
     is_ota = False
     if 'ota' in request_dict:
         is_ota = True
+    should_replace = False
+    if 'replace' in request_dict:
+        should_replace = True
 
     p_signature = Signature.objects.filter(device__ecid=ecid, blob_version=ios_version, blob_build=ios_build).last()
     if p_signature:
-        result_dict.update({
-            'status': 500,
-            'msg': "error: device '%s' already got signed with %s" % (ecid, ios_version),
-        })
-        return result_dict
+        if should_replace:
+            pass
+        else:
+            result_dict.update({
+                'status': 500,
+                'msg': "error: device '%s' already got signed with %s" % (ecid, ios_version),
+            })
+            if throw_exception:
+                raise RuntimeError(json.dumps(result_dict, indent=4, sort_keys=True))
+            return result_dict
 
     status, sout, serr, pid, blob_path = tsschecker(ecid=ecid, product_type=product_type, hw_model=hw_model,
                                                     ios_version=ios_version, ios_build=ios_build, ap_nonce=ap_nonce,
@@ -113,6 +125,8 @@ def handle_signing_task(request_dict):
             'stdout': sout,
             'stderr': serr
         })
+        if throw_exception:
+            raise RuntimeError(json.dumps(result_dict, indent=4, sort_keys=True))
         return result_dict
 
     check_result = False
@@ -122,6 +136,14 @@ def handle_signing_task(request_dict):
         fpath = os.path.join(blob_path, flist[i])
         if os.path.isfile(save_prefix + fpath):
             check_result = True
+            last_comp = fpath.split('/')[-1]
+            last_comp = last_comp.split('_')
+            if len(last_comp) == 5:
+                if len(ios_build) > 0:
+                    pass
+                else:
+                    ios_build = last_comp[3].split('-')[-1]
+                ap_nonce = last_comp[-1].split('.')[0]
             blob_path = fpath
             break
 
@@ -132,14 +154,18 @@ def handle_signing_task(request_dict):
             'stdout': sout,
             'stderr': serr
         })
+        if throw_exception:
+            raise RuntimeError(json.dumps(result_dict, indent=4, sort_keys=True))
         return result_dict
 
-    p_signature = Signature()
+    if not p_signature:
+        p_signature = Signature()
     p_signature.device = p_device
     p_signature.blob_version = ios_version
     p_signature.blob_build = ios_build
     p_signature.ap_nonce = ap_nonce
     p_signature.blob_file = os.path.join('/', blob_path)
+    p_signature.is_fetched = True
     p_signature.save()
 
     result_dict.update({
@@ -165,7 +191,7 @@ def sign_device(request):
         async = True
 
     if not async:
-        return HttpResponse(json.dumps(handle_signing_task(request.POST)), content_type='application/json')
+        return HttpResponse(json.dumps(handle_signing_task(request.POST, False)), content_type='application/json')
     else:
         result_dict = {}
 
@@ -191,7 +217,7 @@ def sign_device(request):
                 })
         else:
             queue = django_rq.get_queue('high')
-            m_job = queue.enqueue(handle_signing_task, request.POST)
+            m_job = queue.enqueue(handle_signing_task, request.POST, True)
             result_dict.update({
                 'status': 200,
                 'msg': _('Task submitted, proceeding...'),

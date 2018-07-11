@@ -19,7 +19,7 @@
 {% block breadcrumbs %}
     <div class="breadcrumbs">
         <a href="{% url 'admin:index' %}">{% trans 'Home' %}</a> &rsaquo;
-        <a href="{% url 'rq_home' %}">{% trans 'Django RQ' %}</a> &rsaquo;
+        <a href="{% url 'rq_home' %}">{% trans 'RQ Signing Queue' %}</a> &rsaquo;
         <a href = "{% url 'rq_jobs' queue_index %}">{{ queue.name }}</a> &rsaquo;
         <a href = "{% url 'rq_job_detail' queue_index job.id %}">{{ job.id }}</a>
     </div>
@@ -103,11 +103,11 @@
         </div>
     </fieldset>
     <div class="submit-row">
-        <p class="deletelink-box"><a href="delete/" class="deletelink">Delete</a></p>
+        <p class="deletelink-box"><a href="delete/" class="deletelink">{% trans 'Delete' %}</a></p>
         {% if job.is_failed %}
             <form method = 'POST' action = "{% url 'rq_requeue_job' queue_index job.id %}">
                 {% csrf_token %}
-                <input type="submit" value="Requeue" class="default" name="requeue">
+                <input type="submit" value="{% trans 'Requeue' %}" class="default" name="requeue">
             </form>
         {% endif %}
     </div>

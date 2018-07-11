@@ -17,7 +17,7 @@
 {% block breadcrumbs %}
     <div class="breadcrumbs">
         <a href="{% url 'admin:index' %}">{% trans 'Home' %}</a> &rsaquo;
-        <a href="{% url 'rq_home' %}">{% trans 'Django RQ' %}</a> &rsaquo;
+        <a href="{% url 'rq_home' %}">{% trans 'RQ Signing Queue' %}</a> &rsaquo;
         <a href = "{% url 'rq_jobs' queue_index %}">{{ queue.name }}</a> &rsaquo;
         Empty
     </div>

@@ -1,5 +1,6 @@
 from __future__ import unicode_literals
 
+from django.core.validators import RegexValidator
 from django.db import models
 from django.utils.translation import ugettext as _
 
@@ -17,7 +18,14 @@ class Device(models.Model):
         max_length=16,
         blank=False,
         unique=True,
-        null=False
+        null=False,
+        validators=[
+            RegexValidator(
+                r'^[A-Fa-f0-9]+$',
+                _("Enter a valid 'ECID' consisting of hex letters and numbers."),
+                'invalid'
+            )
+        ]
     )
 
     created_at = models.DateTimeField(
@@ -36,6 +44,13 @@ class Device(models.Model):
         max_length=16,
         blank=False,
         help_text=_("Example: n90ap"),
+        validators=[
+            RegexValidator(
+                r'^[A-Za-z0-9]+$',
+                _("Enter a valid 'HW Model' consisting of letters and numbers."),
+                'invalid'
+            )
+        ]
     )
 
     product_type = models.CharField(
@@ -43,6 +58,13 @@ class Device(models.Model):
         max_length=16,
         blank=False,
         help_text=_("Example: iPhone10,3"),
+        validators=[
+            RegexValidator(
+                r'^[A-Za-z0-9|,]+$',
+                _("Enter a valid 'Product Type' consisting of letters, numbers and commas."),
+                'invalid'
+            )
+        ]
     )
 
     ios_version = models.CharField(
@@ -50,6 +72,13 @@ class Device(models.Model):
         max_length=16,
         blank=False,
         help_text=_("Example: 11.4"),
+        validators=[
+            RegexValidator(
+                r'^[A-Za-z0-9|\.]+$',
+                _("Enter a valid 'iOS Version' consisting of letters, numbers and dots."),
+                'invalid'
+            )
+        ]
     )
 
     ios_build = models.CharField(
@@ -58,12 +87,26 @@ class Device(models.Model):
         blank=True,
         default="",
         help_text=_("Example: 15F5061e"),
+        validators=[
+            RegexValidator(
+                r'^[A-Za-z0-9]+$',
+                _("Enter a valid 'iOS Build' consisting of letters and numbers."),
+                'invalid'
+            )
+        ]
     )
 
     generator = models.CharField(
         verbose_name=_("Generator"),
         max_length=32,
-        blank=True
+        blank=True,
+        validators=[
+            RegexValidator(
+                r'^[A-Fa-f0-9]+$',
+                _("Enter a valid 'Generator' consisting of hex letters and numbers."),
+                'invalid'
+            )
+        ]
     )
 
     def __unicode__(self):
@@ -91,6 +134,13 @@ class Signature(models.Model):
         max_length=16,
         blank=False,
         help_text=_("Example: 11.4"),
+        validators=[
+            RegexValidator(
+                r'^[A-Za-z0-9|\.]+$',
+                _("Enter a valid 'Blob Version' consisting of letters, numbers and dots."),
+                'invalid'
+            )
+        ]
     )
 
     blob_build = models.CharField(
@@ -99,13 +149,32 @@ class Signature(models.Model):
         blank=True,
         default="",
         help_text=_("Example: 15F5061e"),
+        validators=[
+            RegexValidator(
+                r'^[A-Za-z0-9]+$',
+                _("Enter a valid 'Blob Build' consisting of letters and numbers."),
+                'invalid'
+            )
+        ]
     )
 
     ap_nonce = models.CharField(
         verbose_name=_("Blob Nonce"),
         max_length=64,
         blank=True,
-        default=""
+        default="",
+        validators=[
+            RegexValidator(
+                r'^[A-Fa-f0-9]+$',
+                _("Enter a valid 'Blob Nonce' consisting of hex letters and numbers."),
+                'invalid'
+            )
+        ]
+    )
+
+    is_ota = models.BooleanField(
+        verbose_name=_("OTA Ticket"),
+        default=False
     )
 
     blob_file = models.FileField(
@@ -115,6 +184,11 @@ class Signature(models.Model):
         help_text=_("Choose a Blob File (*.shsh2) to upload"),
         blank=True,
         null=True,
+    )
+
+    is_fetched = models.BooleanField(
+        verbose_name=_("Blob Fetched"),
+        default=False
     )
 
     def __unicode__(self):
